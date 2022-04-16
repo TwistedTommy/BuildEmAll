@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="..\packages\ILMerge.3.0.41\build\ILMerge.props" Condition="Exists('..\packages\ILMerge.3.0.41\build\ILMerge.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D40C2F3F-E3A2-47EB-8EF3-9C2C707B4FFB}</ProjectGuid>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\ILMerge.3.0.41\build\ILMerge.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ILMerge.3.0.41\build\ILMerge.props'))" />
+  </Target>
+  <PropertyGroup>
+    <BinaryDLLSourceName>BuildEmAll</BinaryDLLSourceName>
+    <BinaryCLISourceName>BuildEmAll-CLI</BinaryCLISourceName>
+    <BinaryGUISourceName>BuildEmAll-GUI</BinaryGUISourceName>
+    <SetupSourceName>BuildEmAll-Setup</SetupSourceName>
+    <ReleaseName>BuildEmAll</ReleaseName>
+    <ReleaseSetupName>BuildEmAll-Setup</ReleaseSetupName>
+    <ReleaseVersion>1.5.3</ReleaseVersion>
+    <ILMergeDir>$(OutputPath)ILMerge\</ILMergeDir>
+    <ReleaseDir>$(OutputPath)Release\</ReleaseDir>
+    <ReleasesDir>$(OutputPath)Releases\</ReleasesDir>
+    <PackagerDir>$(OutputPath)Packages\</PackagerDir>
+  </PropertyGroup>
+  <Target Name="Build">
+    <CallTarget Targets="Clean" />
+    <CallTarget Condition="$(Configuration) == 'Release'" Targets="CreateILMergeFiles" />
+    <CallTarget Targets="CreateReleaseFiles" />
+    <CallTarget Targets="CreateReleasesFiles" />
+    <CallTarget Targets="CreatePackagesFiles" />
+  </Target>
+  <Target Name="Clean">
+    <RemoveDir Condition="$(Configuration) == 'Release'" Directories="$(ILMergeDir)" />
+    <MakeDir Condition="$(Configuration) == 'Release'" Directories="$(ILMergeDir)" />
+    <RemoveDir Directories="$(ReleaseDir)" />
+    <MakeDir Directories="$(ReleaseDir)" />
+    <RemoveDir Directories="$(ReleasesDir)" />
+    <MakeDir Directories="$(ReleasesDir)" />
+    <RemoveDir Directories="$(PackagerDir)" />
+    <MakeDir Directories="$(PackagerDir)" />
+  </Target>
+  <Target Name="CreateILMergeFiles">
+    <Exec Command="%22$(SolutionDir)packages\ILMerge.3.0.41\tools\net452\ILMerge.exe%22 /out:%22$(ILMergeDir)$(BinaryCLISourceName).exe%22 %22$(SolutionDir)$(BinaryCLISourceName)\bin\$(Configuration)\$(BinaryCLISourceName).exe%22 %22$(SolutionDir)$(BinaryCLISourceName)\bin\$(Configuration)\*.dll%22 /wildcards" />
+    <Exec Command="%22$(SolutionDir)packages\ILMerge.3.0.41\tools\net452\ILMerge.exe%22 /out:%22$(ILMergeDir)$(BinaryGUISourceName).exe%22 %22$(SolutionDir)$(BinaryGUISourceName)\bin\$(Configuration)\$(BinaryGUISourceName).exe%22 %22$(SolutionDir)$(BinaryGUISourceName)\bin\$(Configuration)\*.dll%22 /wildcards" />
+  </Target>
+  <Target Name="CreateReleaseFiles">
+    <ItemGroup>
+      <MySourceBinaries Condition="$(Configuration) == 'Debug'" Include="$(SolutionDir)$(BinaryCLISourceName)\bin\$(Configuration)\**\*.exe;$(SolutionDir)$(BinaryGUISourceName)\bin\$(Configuration)\**\*.exe;" />
+      <MySourceBinaries Condition="$(Configuration) == 'Release'" Include="$(ILMergeDir)\**\*.exe;" />
+      <MySourceLibraries Condition="$(Configuration) == 'Debug'" Include="$(SolutionDir)$(BinaryCLISourceName)\bin\$(Configuration)\**\*.dll;$(SolutionDir)$(BinaryGUISourceName)\bin\$(Configuration)\**\*.dll;$(SolutionDir)$(BinaryDLLSourceName)\bin\$(Configuration)\**\*.dll;" />
+      <MySourceBatches Include="$(SolutionDir)$(BinaryCLISourceName)\Resources\Batches\**\*.bat;" />
+      <MySourceDocs Include="$(SolutionDir)$(BinaryDLLSourceName)\Resources\Docs\**\*.txt;" />
+      <MySourceXdeltas Include="$(SolutionDir)$(ReleaseName)\Resources\Libs\**\*.exe;" />
+    </ItemGroup>
+    <Copy SourceFiles="@(MySourceBinaries)" DestinationFiles="@(MySourceBinaries->'$(ReleaseDir)\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Copy Condition="$(Configuration) == 'Debug'" SourceFiles="@(MySourceLibraries)" DestinationFiles="@(MySourceLibraries->'$(ReleaseDir)\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(MySourceBatches)" DestinationFiles="@(MySourceBatches->'$(ReleaseDir)\Batches\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(MySourceDocs)" DestinationFiles="@(MySourceDocs->'$(ReleaseDir)\Docs\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(MySourceXdeltas)" DestinationFiles="@(MySourceXdeltas->'$(ReleaseDir)\Xdelta\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <MakeDir Directories="$(ReleaseDir)\Dats" />
+    <MakeDir Directories="$(ReleaseDir)\Logs" />
+    <MakeDir Directories="$(ReleaseDir)\Options" />
+    <MakeDir Directories="$(ReleaseDir)\Patches" />
+    <MakeDir Directories="$(ReleaseDir)\ROMs" />
+  </Target>
+  <Target Name="CreateReleasesFiles">
+    <Delete Files="$(ReleasesDir)$(ReleaseName).$(ReleaseVersion).zip" />
+    <ZipDirectory SourceDirectory="$(ReleaseDir)" DestinationFile="$(ReleasesDir)$(ReleaseName).$(ReleaseVersion).zip" />
+    <Delete Files="$(ReleasesDir)$(ReleaseSetupName).$(ReleaseVersion).zip" />
+    <ZipDirectory SourceDirectory="$(SolutionDir)$(SetupSourceName)\$(Configuration)" DestinationFile="$(ReleasesDir)$(ReleaseSetupName).$(ReleaseVersion).zip" />
+  </Target>
+  <Target Name="CreatePackagesFiles">
+    <Delete Files="$(PackagerDir)$(ReleaseName).$(ReleaseVersion).nuget" />
+    <Exec Command="nuget pack %22$(SolutionDir)$(BinaryDLLSourceName)\$(BinaryDLLSourceName).csproj%22 -Prop Configuration=$(Configuration) -OutputDirectory $(PackagerDir) -Version $(ReleaseVersion)" />
+  </Target>
+</Project>

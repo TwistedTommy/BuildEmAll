@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildEmAll-CLI", "BuildEmAll-CLI\BuildEmAll-CLI.csproj", "{2D9F35C9-4274-429F-851E-96DAE240B59E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildEmAll-GUI", "BuildEmAll-GUI\BuildEmAll-GUI.csproj", "{114ADC53-8575-4DA6-9EC3-36187C0B55E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildEmAll", "BuildEmAll\BuildEmAll.csproj", "{956E3B6C-EEE3-44A9-BE64-7B3AE0238924}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BuildEmAll-Setup", "BuildEmAll-Setup\BuildEmAll-Setup.vdproj", "{BB792664-EB4F-48D3-85B1-0EEF3CF11BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildEmAll-Release", "BuildEmAll-Release\BuildEmAll-Release.csproj", "{D40C2F3F-E3A2-47EB-8EF3-9C2C707B4FFB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{114ADC53-8575-4DA6-9EC3-36187C0B55E9} = {114ADC53-8575-4DA6-9EC3-36187C0B55E9}
+		{BB792664-EB4F-48D3-85B1-0EEF3CF11BFC} = {BB792664-EB4F-48D3-85B1-0EEF3CF11BFC}
+		{2D9F35C9-4274-429F-851E-96DAE240B59E} = {2D9F35C9-4274-429F-851E-96DAE240B59E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Description = The Original Automated ROM Patcher
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D9F35C9-4274-429F-851E-96DAE240B59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9F35C9-4274-429F-851E-96DAE240B59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9F35C9-4274-429F-851E-96DAE240B59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9F35C9-4274-429F-851E-96DAE240B59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114ADC53-8575-4DA6-9EC3-36187C0B55E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114ADC53-8575-4DA6-9EC3-36187C0B55E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114ADC53-8575-4DA6-9EC3-36187C0B55E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114ADC53-8575-4DA6-9EC3-36187C0B55E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{956E3B6C-EEE3-44A9-BE64-7B3AE0238924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956E3B6C-EEE3-44A9-BE64-7B3AE0238924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956E3B6C-EEE3-44A9-BE64-7B3AE0238924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956E3B6C-EEE3-44A9-BE64-7B3AE0238924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB792664-EB4F-48D3-85B1-0EEF3CF11BFC}.Debug|Any CPU.ActiveCfg = Debug
+		{BB792664-EB4F-48D3-85B1-0EEF3CF11BFC}.Debug|Any CPU.Build.0 = Debug
+		{BB792664-EB4F-48D3-85B1-0EEF3CF11BFC}.Release|Any CPU.ActiveCfg = Release
+		{BB792664-EB4F-48D3-85B1-0EEF3CF11BFC}.Release|Any CPU.Build.0 = Release
+		{D40C2F3F-E3A2-47EB-8EF3-9C2C707B4FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40C2F3F-E3A2-47EB-8EF3-9C2C707B4FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40C2F3F-E3A2-47EB-8EF3-9C2C707B4FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D40C2F3F-E3A2-47EB-8EF3-9C2C707B4FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDB3CD11-F8EC-41D7-8562-9BC4D0C84D98}
+	EndGlobalSection
+EndGlobal

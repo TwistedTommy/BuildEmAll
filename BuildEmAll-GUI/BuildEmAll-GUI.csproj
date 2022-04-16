@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{114ADC53-8575-4DA6-9EC3-36187C0B55E9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BuildEmAll_GUI</RootNamespace>
+    <AssemblyName>BuildEmAll-GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\packages\Serilog.2.10.0\lib\net46\Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog.Sinks.LogEmAll, Version=0.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Serilog.Sinks.LogEmAll.0.0.3\lib\net472\Serilog.Sinks.LogEmAll.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmBuildEmAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBuildEmAll.Designer.cs">
+      <DependentUpon>FrmBuildEmAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmBuildEmAll.fr.resx">
+      <DependentUpon>FrmBuildEmAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBuildEmAll.resx">
+      <DependentUpon>FrmBuildEmAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <None Include="Resources\Images\SavePPD_16x16.png" />
+    <None Include="Resources\Images\RemovePrepatch_16x16.png" />
+    <None Include="Resources\Images\RemoveAllPrepatches_16x16.png" />
+    <None Include="Resources\Images\LoadPPD_16x16.png" />
+    <None Include="Resources\Images\LoadDat_16x16.png" />
+    <None Include="Resources\Images\CheckPrepatches_16x16.png" />
+    <None Include="Resources\Images\AddPrepatch_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audio\AddRemove.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audio\Complete.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audio\Confirm.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audio\Fail.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\BuildDatafile_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\BuildPatches_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\BuildROMs_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\Cancel_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\ChangeOption_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\Exit_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\Help_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\License_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\LoadOptions_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\Log_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\Options_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\PPDBuilder_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\SaveLog_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\SaveOptions_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\Toolbar_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BuildEmAll\BuildEmAll.csproj">
+      <Project>{956e3b6c-eee3-44a9-be64-7b3ae0238924}</Project>
+      <Name>BuildEmAll</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

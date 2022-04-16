@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+BuildEmAll - Help - CMD version 20220404
+Copyright (c) 2016-2022 BuildEmAll - All Rights Reserved
+-------------------------------------------------------------------------------
+
+Usage:
+	BuildEmAll-CLI.exe [-command] [option:]
+	Options that contain spaces must be enclosed in quotations
+	Options may be specified in any order
+	Only one command may be be used
+
+-------------------------------------------------------------------------------
+
+Build ROMs Example:
+	BuildEmAll-CLI.exe -buildroms "RD:C:\BEA\ROMs" "PD:C:\BEA\Patches" "XF:C:\BEA\Xdelta\xdelta3-3.1.0-x86_64.exe" "DL: -- "
+
+-------------------------------------------------------------------------------
+
+Build Patches Example:
+	BuildEmAll-CLI.exe -buildpatches "RD:C:\BEA\ROMs" "PD:C:\BEA\Patches" "XF:C:\BEA\Xdelta\xdelta3-3.1.0-x86_64.exe" "XC:-e -9 -s" "DL: -- " "DF:C:\BEA\Dats\YourDatPPDXMLFile.dat"
+
+-------------------------------------------------------------------------------
+
+Build Patches Datafile Example:
+	BuildEmAll-CLI.exe -buildpatchesdat "PD:C:\BEA\Patches" "XF:C:\BEA\Xdelta\xdelta3-3.1.0-x86_64.exe" "XC:-e -9 -s" "MN:YourMachineName" "DD:C:\BEA\Dats" "CO:YourComment"
+
+-------------------------------------------------------------------------------
+
+Standard Commands:
+	-buildroms		Build all possible ROMs
+	-buildpatches		Build all possible patches
+	-buildpatchesdat	Build a datafile from the patches directory
+	-saveoptions		Save the options
+	-help			Print the help
+	-license		Print the license
+	-version		Print the version
+
+-------------------------------------------------------------------------------
+
+Standard Options:
+	RD:		Path to the ROMs directory
+	PD:		Path to the patches directory
+	DD:		Path to the datafiles directory
+	DF:		Path to the Dat/PPD/XML file
+	XF:		Path to the Xdelta file
+	XC:		Command to use for building Xdelta patches
+	DL:		Delimiter used between game names
+	MN:		Machine name to use for building a datafile
+	CO:		Comment to use for building a datafile
+	OF:		Path to the options file - Overwrites all options
+	LF:		Path to the log file
+	SO:		Turn the sounds on or off
+				on
+				off - DEFAULT
+	LA:		Language
+				en - DEFAULT
+	LL:		Log Level
+				Information - DEFAULT

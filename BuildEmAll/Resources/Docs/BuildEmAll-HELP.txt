@@ -1,0 +1,136 @@
+-------------------------------------------------------------------------------
+BuildEmAll - Help version 20220415
+Copyright (c) 2016-2022 BuildEmAll - All Rights Reserved
+-------------------------------------------------------------------------------
+
+[I] About
+[II] Notes
+[III] Installation
+[IV] How To Build ROMs, Patches and Datafiles
+[V] How To Build PPDs
+[VI] FAQ
+[VII] Contributing
+[VIII] Contact
+[IX] Disclaimers
+
+[I] About
+-------------------------------------------------------------------------------
+BuildEmAll or BEA is the original software application for automating the process of building ROMs from patches and building patches from ROMs.
+
+Are you a ROM collector who wants to save vast amounts of time and bandwidth? Are you a patcher who is tired of working like an octopussy? If so, BuildEmAll is for you. It's easy and fun to use.
+
+BuildEmAll comes with both a command line interface and a graphical interface. No matter which interface you choose, building ROMs and patches is easy. Just run BuildEmAll to build all of the ROMs or patches.
+
+BuildEmAll uses Xdelta to create a patch containing the diff data between two ROMs. The resulting patch is usually very small and can be used to recreate an exact image of a second ROM.
+
+Although BuildEmAll has more than one purpose, it's main purpose is to automate the process of building ROMs and patches. This automated process not only saves you vast amounts of time and bandwidth, but also creates a uniform set of patches.
+
+BuildEmAll makes life simpler and easier. Just run BuildEmAll and go eat dinner, go to work or go to sleep. When you return, BuildEmAll has built every possible ROM or patch that it can... Or at least it's still working on it.
+
+Using BuildEmAll, the sky is the limit as to how many patches and datafiles you create.
+
+[II] Notes
+-------------------------------------------------------------------------------
+1) The ROMs, patches and datafiles directories should be as close to the drive's root directory as possible. The nature of things dictates that there will be very long filenames, on occasion. Keep in mind that some things may not work correctly if you choose too long of a path to put your files.
+2) This software does not work on Zip, 7zip, TZip or any kind of archived ROMs. You must unzip or unarchive them into the appropriate directories.
+3) Patch names and ROM names that do not exactly match the names in all official datafiles may break this software and may cause havoc, serious injury or death.
+4) This software is not recursive. That means it won't find patches or ROMs inside of sub directories.
+5) This software is not a ROM manager. Use a ROM manager for renaming, checking and managing your ROMs and patches.
+6) This software is not a datafile tool. It doesn't have the ability to recognize every kind of datafile in existence. It should only be used with officially supported BuildEmAll datafiles.
+
+[III] Installation
+-------------------------------------------------------------------------------
+Download and unzip the program and datafiles to any location that you wish to use. However, this software should be installed as close to the drive's root directory as possible.
+
+I like to put my installation in a directory called BEA on my C:\ drive. My installation layout looks like this:
+
+C:\BEA\Batches\
+C:\BEA\Dats\
+C:\BEA\Docs\
+C:\BEA\Logs\
+C:\BEA\Options\
+C:\BEA\Patches\
+C:\BEA\ROMs\
+C:\BEA\Xdelta\
+C:\BEA\BuildEmAll-CLI.exe
+C:\BEA\BuildEmAll-GUI.exe
+
+Optionally you may place an Options - BuildEmAll.xml file in the Options directory like this: C:\BEA\Options\Options - BuildEmAll.xml. BuildEmAll will try to automatically load this file. If it is not found, it will load some default options.
+
+BuildEmAll allows you to save many sets of options for numerous sets of patches and prepatches and quickly switch between them.
+
+[IV] How To Build ROMs, Patches and Datafiles
+-------------------------------------------------------------------------------
+Step 1)
+Download the official BuildEmAll patches (.dat) and prepatches (.ppd) datafiles and unzip them into the Dats folder.
+
+Step 2)
+Set the options according to the following requirements:
+A) Building ROMs requires a ROMs directory, a patches directory, an Xdelta file and a delimiter.
+B) Building patches requires a ROMs directory, a patches directory, an Xdelta file, an Xdelta build command, a delimiter and a Dat/PPD/XML file.
+C) Building an official datafile requires a patches directory, an Xdelta file, an Xdelta build command, a machine name, a dats directory, and optionally a comment.
+
+Step 3)
+Place all of the unzipped, unarchived ROMs into the ROMs directory.
+
+Step 4)
+Place all of the unzipped, unarchived patches into the patches directory.
+
+Step 5)
+Click the button with the action that you want to perform.
+
+[V] How To Build PPDs
+-------------------------------------------------------------------------------
+* The GUI version must be used to build PPDs. *
+
+Step 1)
+Click the Load Dat button to load a datafile into the ROMs boxes.
+
+Step 2)
+Select a ROM on the left to patch from. Select a ROM on the right to patch to. Click the Add Prepatch button. Add as many prepatches as you want.
+
+Step 3)
+Set the machine name and a comment in the options.
+
+Step 4)
+Save your PPD file.
+
+[VI] FAQ
+-------------------------------------------------------------------------------
+Q1: What is BuildEmAll?
+A1: BuildEmAll is a software tool that automates the processes of building ROMs from patches and building patches from ROMs.
+
+Q2: Why do I need BuildEmAll?
+A2: To automate the process of building ROMs and patches. Working like an octopussy is needless and senseless, when you can just run BuildEmall to build everything possible and all at once. A better question is, why would anyone want to build one ROM or one patch at a time, unless he only needs one ROM or patch?
+
+Q3: What makes BuildEmAll different?
+A3: BuildEmAll is a software project, not a patching project. BuildEmAll is used by groups or individuals who operate and maintain patching projects.
+
+Q4: How do I get my datafiles included in the official BuildEmAll datafiles?
+A4: Simply submit them to be included in the official datafiles. The official BuildEmAll datafiles should only contain 100% working patches. Each set has it's own datafile and there is no mess.
+
+Q5: I only want to build a few ROMs or patches. Do I have to build the entire set?
+A5: Certainly not! Just put the few ROMs and patches into the ROMs and Patches directories and run BuildEmAll. It will only build the ROMs and patches that are possible out of the ROMs and patches that you supplied it with.
+
+[VII] Contributing
+-------------------------------------------------------------------------------
+Let's work better together. We are looking to collaborate with like-minded people who want to contribute in any capacity. Collaboration is open to everyone and we need your help if you are a:  
+- Collector
+- Database Administrator
+- Datter
+- Developer
+- Dumper
+- Graphic Artist
+- Linguist/Translator
+- Player
+- Tester
+
+[VIII] Contact
+-------------------------------------------------------------------------------
+GitHub: https://github.com/TwistedTommy/BuildEmAll
+
+[IX] Disclaimers
+-------------------------------------------------------------------------------
+We do not upload, share, distribute or provide links to anything illegal, including ROMs or patches.
+
+This software includes Xdelta software, freely available from http://www.xdelta.org/

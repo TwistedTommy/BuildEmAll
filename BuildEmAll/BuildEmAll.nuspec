@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+	<metadata>
+		<id>BuildEmAll</id>
+		<title>BuildEmAll</title>
+		<version>0.0.0</version>
+		<description>Use the BuildEmAll Library (.dll) to patch ROMs from anywhere in your application.  
+  
+First, install or add the BuildEmAll Nuget Package to your application by downloading the [nuget.nupkg](https://github.com/TwistedTommy?tab=packages&amp;repo_name=BuildEmAll) to your project folder and opening a Nuget Package Manager Console in Visual Studio and type:  
+  
+```
+Install-Package nuget.nupkg
+```
+  
+Then, create and use a new BuildEmAll Object from anywhere in your application like the following:  
+  
+```
+BuildEmAll.BuildEmAll bea = new BuildEmAll.BuildEmAll();
+```
+        </description>
+		<authors>BuildEmAll</authors>
+		<projectUrl>https://github.com/TwistedTommy/BuildEmAll.git</projectUrl>
+		<license type="file">LICENSE.txt</license>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<icon>icon.png</icon>
+		<iconUrl>https://github.com/TwistedTommy/BuildEmAll/raw/master/BuildEmAll/Resources/Images/BuildEmAll.png</iconUrl>
+		<releaseNotes>See https://github.com/TwistedTommy/BuildEmAll/releases for release notes.</releaseNotes>
+		<copyright>Copyright (c) 2016-2022 BuildEmAll - All Rights Reserved</copyright>
+		<tags>BuildEmAll Automated ROM Patcher Patch ROMs</tags>
+		<repository type="git" url="https://github.com/TwistedTommy/BuildEmAll.git" />
+		<dependencies>
+			<group targetFramework=".NETFramework4.7.2">
+				<dependency id="Serilog" version="2.10.0" />
+				<dependency id="Serilog.Sinks.Console" version="4.0.1" />
+				<dependency id="Serilog.Sinks.LogEmAll" version="0.0.3" />
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="Resources\Docs\BuildEmAll-LICENSE.txt" target="LICENSE.txt" />
+		<file src="Resources\Images\BuildEmAll.png" target="icon.png" />
+	</files>
+</package>
