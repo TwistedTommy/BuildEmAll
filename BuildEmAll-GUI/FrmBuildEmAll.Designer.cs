@@ -93,7 +93,6 @@
             this.rtbLog = new Serilog.Sinks.LogEmAll.RichTextBoxLog();
             this.tabOptions = new System.Windows.Forms.TabPage();
             this.gbOptionsInfo = new System.Windows.Forms.GroupBox();
-            this.lblOptionsInfo3 = new System.Windows.Forms.Label();
             this.lblOptionsInfo2 = new System.Windows.Forms.Label();
             this.lblOptionsInfo1 = new System.Windows.Forms.Label();
             this.gbOptions = new System.Windows.Forms.GroupBox();
@@ -158,12 +157,10 @@
             // 
             // splitContainer4.Panel1
             // 
-            resources.ApplyResources(this.splitContainer4.Panel1, "splitContainer4.Panel1");
             this.splitContainer4.Panel1.Controls.Add(this.splitContainer5);
             // 
             // splitContainer4.Panel2
             // 
-            resources.ApplyResources(this.splitContainer4.Panel2, "splitContainer4.Panel2");
             this.splitContainer4.Panel2.Controls.Add(this.lbPrepatches);
             this.splitContainer4.Panel2.Controls.Add(this.btnLoadPPD);
             this.splitContainer4.Panel2.Controls.Add(this.lblCountPrepatches);
@@ -177,14 +174,12 @@
             // 
             // splitContainer5.Panel1
             // 
-            resources.ApplyResources(this.splitContainer5.Panel1, "splitContainer5.Panel1");
             this.splitContainer5.Panel1.Controls.Add(this.txtLoadedDatafile);
             this.splitContainer5.Panel1.Controls.Add(this.lbFromDat);
             this.splitContainer5.Panel1.Controls.Add(this.btnLoadDat);
             // 
             // splitContainer5.Panel2
             // 
-            resources.ApplyResources(this.splitContainer5.Panel2, "splitContainer5.Panel2");
             this.splitContainer5.Panel2.Controls.Add(this.lbToDat);
             this.splitContainer5.Panel2.Controls.Add(this.btnRemoveAllPrepatches);
             this.splitContainer5.Panel2.Controls.Add(this.btnAddPrepatch);
@@ -205,8 +200,8 @@
             // 
             // btnLoadDat
             // 
-            resources.ApplyResources(this.btnLoadDat, "btnLoadDat");
             this.btnLoadDat.Image = global::BuildEmAll_GUI.Properties.Resources.LoadDat_16x16;
+            resources.ApplyResources(this.btnLoadDat, "btnLoadDat");
             this.btnLoadDat.Name = "btnLoadDat";
             this.btnLoadDat.UseVisualStyleBackColor = true;
             this.btnLoadDat.Click += new System.EventHandler(this.LoadDat_Click);
@@ -250,8 +245,8 @@
             // 
             // btnLoadPPD
             // 
-            resources.ApplyResources(this.btnLoadPPD, "btnLoadPPD");
             this.btnLoadPPD.Image = global::BuildEmAll_GUI.Properties.Resources.LoadPPD_16x16;
+            resources.ApplyResources(this.btnLoadPPD, "btnLoadPPD");
             this.btnLoadPPD.Name = "btnLoadPPD";
             this.btnLoadPPD.UseVisualStyleBackColor = true;
             this.btnLoadPPD.Click += new System.EventHandler(this.LoadPPD_Click);
@@ -263,8 +258,8 @@
             // 
             // btnSavePPD
             // 
-            resources.ApplyResources(this.btnSavePPD, "btnSavePPD");
             this.btnSavePPD.Image = global::BuildEmAll_GUI.Properties.Resources.SavePPD_16x16;
+            resources.ApplyResources(this.btnSavePPD, "btnSavePPD");
             this.btnSavePPD.Name = "btnSavePPD";
             this.btnSavePPD.UseVisualStyleBackColor = true;
             this.btnSavePPD.Click += new System.EventHandler(this.SavePPD_Click);
@@ -279,15 +274,14 @@
             // 
             // msMain
             // 
-            resources.ApplyResources(this.msMain, "msMain");
             this.msMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiCommands,
             this.tsmiView});
+            resources.ApplyResources(this.msMain, "msMain");
             this.msMain.Name = "msMain";
             // 
             // tsmiCommands
             // 
-            resources.ApplyResources(this.tsmiCommands, "tsmiCommands");
             this.tsmiCommands.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiBuildROMs,
             this.tsmiBuildPatches,
@@ -300,6 +294,7 @@
             this.toolStripSeparator3,
             this.tsmiExit});
             this.tsmiCommands.Name = "tsmiCommands";
+            resources.ApplyResources(this.tsmiCommands, "tsmiCommands");
             // 
             // tsmiBuildROMs
             // 
@@ -324,8 +319,8 @@
             // 
             // toolStripSeparator1
             // 
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             // 
             // tsmiLoadOptions
             // 
@@ -343,8 +338,8 @@
             // 
             // toolStripSeparator2
             // 
-            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             this.toolStripSeparator2.Name = "toolStripSeparator2";
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             // 
             // tsmiSaveLog
             // 
@@ -355,19 +350,18 @@
             // 
             // toolStripSeparator3
             // 
-            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
             this.toolStripSeparator3.Name = "toolStripSeparator3";
+            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
             // 
             // tsmiExit
             // 
-            resources.ApplyResources(this.tsmiExit, "tsmiExit");
             this.tsmiExit.Image = global::BuildEmAll_GUI.Properties.Resources.Exit_32x32;
             this.tsmiExit.Name = "tsmiExit";
+            resources.ApplyResources(this.tsmiExit, "tsmiExit");
             this.tsmiExit.Click += new System.EventHandler(this.ExitApp_Click);
             // 
             // tsmiView
             // 
-            resources.ApplyResources(this.tsmiView, "tsmiView");
             this.tsmiView.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiLog,
             this.toolStripSeparator7,
@@ -381,79 +375,79 @@
             this.toolStripSeparator11,
             this.tsmiToolbar});
             this.tsmiView.Name = "tsmiView";
+            resources.ApplyResources(this.tsmiView, "tsmiView");
             // 
             // tsmiLog
             // 
-            resources.ApplyResources(this.tsmiLog, "tsmiLog");
             this.tsmiLog.Checked = true;
             this.tsmiLog.CheckState = System.Windows.Forms.CheckState.Checked;
             this.tsmiLog.Name = "tsmiLog";
+            resources.ApplyResources(this.tsmiLog, "tsmiLog");
             this.tsmiLog.Click += new System.EventHandler(this.ViewLog_Click);
             // 
             // toolStripSeparator7
             // 
-            resources.ApplyResources(this.toolStripSeparator7, "toolStripSeparator7");
             this.toolStripSeparator7.Name = "toolStripSeparator7";
+            resources.ApplyResources(this.toolStripSeparator7, "toolStripSeparator7");
             // 
             // tsmiOptions
             // 
-            resources.ApplyResources(this.tsmiOptions, "tsmiOptions");
             this.tsmiOptions.Checked = true;
             this.tsmiOptions.CheckState = System.Windows.Forms.CheckState.Checked;
             this.tsmiOptions.Name = "tsmiOptions";
+            resources.ApplyResources(this.tsmiOptions, "tsmiOptions");
             this.tsmiOptions.Click += new System.EventHandler(this.ViewOptions_Click);
             // 
             // toolStripSeparator8
             // 
-            resources.ApplyResources(this.toolStripSeparator8, "toolStripSeparator8");
             this.toolStripSeparator8.Name = "toolStripSeparator8";
+            resources.ApplyResources(this.toolStripSeparator8, "toolStripSeparator8");
             // 
             // tsmiPPDBuilder
             // 
-            resources.ApplyResources(this.tsmiPPDBuilder, "tsmiPPDBuilder");
             this.tsmiPPDBuilder.Checked = true;
             this.tsmiPPDBuilder.CheckState = System.Windows.Forms.CheckState.Checked;
             this.tsmiPPDBuilder.Name = "tsmiPPDBuilder";
+            resources.ApplyResources(this.tsmiPPDBuilder, "tsmiPPDBuilder");
             this.tsmiPPDBuilder.Click += new System.EventHandler(this.ViewPPDBuilder_Click);
             // 
             // toolStripSeparator9
             // 
-            resources.ApplyResources(this.toolStripSeparator9, "toolStripSeparator9");
             this.toolStripSeparator9.Name = "toolStripSeparator9";
+            resources.ApplyResources(this.toolStripSeparator9, "toolStripSeparator9");
             // 
             // tsmiHelp
             // 
-            resources.ApplyResources(this.tsmiHelp, "tsmiHelp");
             this.tsmiHelp.Name = "tsmiHelp";
+            resources.ApplyResources(this.tsmiHelp, "tsmiHelp");
             this.tsmiHelp.Click += new System.EventHandler(this.ViewHelp_Click);
             // 
             // toolStripSeparator10
             // 
-            resources.ApplyResources(this.toolStripSeparator10, "toolStripSeparator10");
             this.toolStripSeparator10.Name = "toolStripSeparator10";
+            resources.ApplyResources(this.toolStripSeparator10, "toolStripSeparator10");
             // 
             // tsmiLicense
             // 
-            resources.ApplyResources(this.tsmiLicense, "tsmiLicense");
             this.tsmiLicense.Name = "tsmiLicense";
+            resources.ApplyResources(this.tsmiLicense, "tsmiLicense");
             this.tsmiLicense.Click += new System.EventHandler(this.ViewLicense_Click);
             // 
             // toolStripSeparator11
             // 
-            resources.ApplyResources(this.toolStripSeparator11, "toolStripSeparator11");
             this.toolStripSeparator11.Name = "toolStripSeparator11";
+            resources.ApplyResources(this.toolStripSeparator11, "toolStripSeparator11");
             // 
             // tsmiToolbar
             // 
-            resources.ApplyResources(this.tsmiToolbar, "tsmiToolbar");
             this.tsmiToolbar.Checked = true;
             this.tsmiToolbar.CheckState = System.Windows.Forms.CheckState.Checked;
             this.tsmiToolbar.Name = "tsmiToolbar";
+            resources.ApplyResources(this.tsmiToolbar, "tsmiToolbar");
             this.tsmiToolbar.Click += new System.EventHandler(this.ViewToolbar_Click);
             // 
             // tsMain
             // 
-            resources.ApplyResources(this.tsMain, "tsMain");
             this.tsMain.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.tsMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsbBuildROMs,
@@ -471,169 +465,170 @@
             this.tsbViewHelp,
             this.tsbViewLicense,
             this.tsbViewToolbar});
+            resources.ApplyResources(this.tsMain, "tsMain");
             this.tsMain.Name = "tsMain";
             // 
             // tsbBuildROMs
             // 
-            resources.ApplyResources(this.tsbBuildROMs, "tsbBuildROMs");
             this.tsbBuildROMs.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.tsbBuildROMs, "tsbBuildROMs");
             this.tsbBuildROMs.Image = global::BuildEmAll_GUI.Properties.Resources.BuildROMs_32x32;
             this.tsbBuildROMs.Name = "tsbBuildROMs";
             this.tsbBuildROMs.Click += new System.EventHandler(this.BuildROMs_Click);
             // 
             // tsbBuildPatches
             // 
-            resources.ApplyResources(this.tsbBuildPatches, "tsbBuildPatches");
             this.tsbBuildPatches.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.tsbBuildPatches, "tsbBuildPatches");
             this.tsbBuildPatches.Image = global::BuildEmAll_GUI.Properties.Resources.BuildPatches_32x32;
             this.tsbBuildPatches.Name = "tsbBuildPatches";
             this.tsbBuildPatches.Click += new System.EventHandler(this.BuildPatches_Click);
             // 
             // tsbBuildPatchesDatafile
             // 
-            resources.ApplyResources(this.tsbBuildPatchesDatafile, "tsbBuildPatchesDatafile");
             this.tsbBuildPatchesDatafile.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.tsbBuildPatchesDatafile, "tsbBuildPatchesDatafile");
             this.tsbBuildPatchesDatafile.Image = global::BuildEmAll_GUI.Properties.Resources.BuildDatafile_32x32;
             this.tsbBuildPatchesDatafile.Name = "tsbBuildPatchesDatafile";
             this.tsbBuildPatchesDatafile.Click += new System.EventHandler(this.BuildPatchesDatafile_Click);
             // 
             // toolStripSeparator4
             // 
-            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
             this.toolStripSeparator4.Name = "toolStripSeparator4";
+            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
             // 
             // tsbLoadOptions
             // 
-            resources.ApplyResources(this.tsbLoadOptions, "tsbLoadOptions");
             this.tsbLoadOptions.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.tsbLoadOptions, "tsbLoadOptions");
             this.tsbLoadOptions.Image = global::BuildEmAll_GUI.Properties.Resources.LoadOptions_32x32;
             this.tsbLoadOptions.Name = "tsbLoadOptions";
             this.tsbLoadOptions.Click += new System.EventHandler(this.LoadOptions_Click);
             // 
             // tsbSaveOptions
             // 
-            resources.ApplyResources(this.tsbSaveOptions, "tsbSaveOptions");
             this.tsbSaveOptions.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.tsbSaveOptions, "tsbSaveOptions");
             this.tsbSaveOptions.Image = global::BuildEmAll_GUI.Properties.Resources.SaveOptions_32x32;
             this.tsbSaveOptions.Name = "tsbSaveOptions";
             this.tsbSaveOptions.Click += new System.EventHandler(this.SaveOptions_Click);
             // 
             // toolStripSeparator5
             // 
-            resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
             this.toolStripSeparator5.Name = "toolStripSeparator5";
+            resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
             // 
             // tsbSaveLog
             // 
-            resources.ApplyResources(this.tsbSaveLog, "tsbSaveLog");
             this.tsbSaveLog.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.tsbSaveLog, "tsbSaveLog");
             this.tsbSaveLog.Image = global::BuildEmAll_GUI.Properties.Resources.SaveLog_32x32;
             this.tsbSaveLog.Name = "tsbSaveLog";
             this.tsbSaveLog.Click += new System.EventHandler(this.SaveLog_Click);
             // 
             // toolStripSeparator6
             // 
-            resources.ApplyResources(this.toolStripSeparator6, "toolStripSeparator6");
             this.toolStripSeparator6.Name = "toolStripSeparator6";
+            resources.ApplyResources(this.toolStripSeparator6, "toolStripSeparator6");
             // 
             // tsbViewLog
             // 
-            resources.ApplyResources(this.tsbViewLog, "tsbViewLog");
             this.tsbViewLog.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.tsbViewLog.Image = global::BuildEmAll_GUI.Properties.Resources.Log_32x32;
+            resources.ApplyResources(this.tsbViewLog, "tsbViewLog");
             this.tsbViewLog.Name = "tsbViewLog";
             this.tsbViewLog.Click += new System.EventHandler(this.ViewLog_Click);
             // 
             // tsbViewOptions
             // 
-            resources.ApplyResources(this.tsbViewOptions, "tsbViewOptions");
             this.tsbViewOptions.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.tsbViewOptions.Image = global::BuildEmAll_GUI.Properties.Resources.Options_32x32;
+            resources.ApplyResources(this.tsbViewOptions, "tsbViewOptions");
             this.tsbViewOptions.Name = "tsbViewOptions";
             this.tsbViewOptions.Click += new System.EventHandler(this.ViewOptions_Click);
             // 
             // tsbViewPPDBuilder
             // 
-            resources.ApplyResources(this.tsbViewPPDBuilder, "tsbViewPPDBuilder");
             this.tsbViewPPDBuilder.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.tsbViewPPDBuilder.Image = global::BuildEmAll_GUI.Properties.Resources.PPDBuilder_32x32;
+            resources.ApplyResources(this.tsbViewPPDBuilder, "tsbViewPPDBuilder");
             this.tsbViewPPDBuilder.Name = "tsbViewPPDBuilder";
             this.tsbViewPPDBuilder.Click += new System.EventHandler(this.ViewPPDBuilder_Click);
             // 
             // tsbViewHelp
             // 
-            resources.ApplyResources(this.tsbViewHelp, "tsbViewHelp");
             this.tsbViewHelp.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.tsbViewHelp.Image = global::BuildEmAll_GUI.Properties.Resources.Help_32x32;
+            resources.ApplyResources(this.tsbViewHelp, "tsbViewHelp");
             this.tsbViewHelp.Name = "tsbViewHelp";
             this.tsbViewHelp.Click += new System.EventHandler(this.ViewHelp_Click);
             // 
             // tsbViewLicense
             // 
-            resources.ApplyResources(this.tsbViewLicense, "tsbViewLicense");
             this.tsbViewLicense.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.tsbViewLicense.Image = global::BuildEmAll_GUI.Properties.Resources.License_32x32;
+            resources.ApplyResources(this.tsbViewLicense, "tsbViewLicense");
             this.tsbViewLicense.Name = "tsbViewLicense";
             this.tsbViewLicense.Click += new System.EventHandler(this.ViewLicense_Click);
             // 
             // tsbViewToolbar
             // 
-            resources.ApplyResources(this.tsbViewToolbar, "tsbViewToolbar");
             this.tsbViewToolbar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.tsbViewToolbar.Image = global::BuildEmAll_GUI.Properties.Resources.Toolbar_32x32;
+            resources.ApplyResources(this.tsbViewToolbar, "tsbViewToolbar");
             this.tsbViewToolbar.Name = "tsbViewToolbar";
             this.tsbViewToolbar.Click += new System.EventHandler(this.ViewToolbar_Click);
             // 
             // ssMain
             // 
-            resources.ApplyResources(this.ssMain, "ssMain");
             this.ssMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsslSnap,
             this.tsslStarusMessage,
             this.tspbBuildProgress,
             this.tssbCancel});
+            resources.ApplyResources(this.ssMain, "ssMain");
             this.ssMain.Name = "ssMain";
             // 
             // tsslSnap
             // 
-            resources.ApplyResources(this.tsslSnap, "tsslSnap");
             this.tsslSnap.Name = "tsslSnap";
+            resources.ApplyResources(this.tsslSnap, "tsslSnap");
             this.tsslSnap.Spring = true;
             // 
             // tsslStarusMessage
             // 
-            resources.ApplyResources(this.tsslStarusMessage, "tsslStarusMessage");
             this.tsslStarusMessage.Name = "tsslStarusMessage";
+            resources.ApplyResources(this.tsslStarusMessage, "tsslStarusMessage");
             // 
             // tspbBuildProgress
             // 
-            resources.ApplyResources(this.tspbBuildProgress, "tspbBuildProgress");
             this.tspbBuildProgress.Name = "tspbBuildProgress";
+            resources.ApplyResources(this.tspbBuildProgress, "tspbBuildProgress");
             // 
             // tssbCancel
             // 
-            resources.ApplyResources(this.tssbCancel, "tssbCancel");
             this.tssbCancel.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.tssbCancel.DropDownButtonWidth = 0;
+            resources.ApplyResources(this.tssbCancel, "tssbCancel");
             this.tssbCancel.Image = global::BuildEmAll_GUI.Properties.Resources.Cancel_16x16;
             this.tssbCancel.Name = "tssbCancel";
             this.tssbCancel.Click += new System.EventHandler(this.CancelBuild_Click);
             // 
             // tcMain
             // 
-            resources.ApplyResources(this.tcMain, "tcMain");
             this.tcMain.Controls.Add(this.tabLog);
             this.tcMain.Controls.Add(this.tabOptions);
             this.tcMain.Controls.Add(this.tabPPDBuilder);
             this.tcMain.Controls.Add(this.tabHelp);
             this.tcMain.Controls.Add(this.tabLicense);
+            resources.ApplyResources(this.tcMain, "tcMain");
             this.tcMain.Name = "tcMain";
             this.tcMain.SelectedIndex = 0;
             // 
             // tabLog
             // 
-            resources.ApplyResources(this.tabLog, "tabLog");
             this.tabLog.Controls.Add(this.rtbLog);
+            resources.ApplyResources(this.tabLog, "tabLog");
             this.tabLog.Name = "tabLog";
             this.tabLog.UseVisualStyleBackColor = true;
             // 
@@ -645,25 +640,19 @@
             // 
             // tabOptions
             // 
-            resources.ApplyResources(this.tabOptions, "tabOptions");
             this.tabOptions.Controls.Add(this.gbOptionsInfo);
             this.tabOptions.Controls.Add(this.gbOptions);
+            resources.ApplyResources(this.tabOptions, "tabOptions");
             this.tabOptions.Name = "tabOptions";
             this.tabOptions.UseVisualStyleBackColor = true;
             // 
             // gbOptionsInfo
             // 
             resources.ApplyResources(this.gbOptionsInfo, "gbOptionsInfo");
-            this.gbOptionsInfo.Controls.Add(this.lblOptionsInfo3);
             this.gbOptionsInfo.Controls.Add(this.lblOptionsInfo2);
             this.gbOptionsInfo.Controls.Add(this.lblOptionsInfo1);
             this.gbOptionsInfo.Name = "gbOptionsInfo";
             this.gbOptionsInfo.TabStop = false;
-            // 
-            // lblOptionsInfo3
-            // 
-            resources.ApplyResources(this.lblOptionsInfo3, "lblOptionsInfo3");
-            this.lblOptionsInfo3.Name = "lblOptionsInfo3";
             // 
             // lblOptionsInfo2
             // 
@@ -854,15 +843,15 @@
             // 
             // tabPPDBuilder
             // 
-            resources.ApplyResources(this.tabPPDBuilder, "tabPPDBuilder");
             this.tabPPDBuilder.Controls.Add(this.splitContainer4);
+            resources.ApplyResources(this.tabPPDBuilder, "tabPPDBuilder");
             this.tabPPDBuilder.Name = "tabPPDBuilder";
             this.tabPPDBuilder.UseVisualStyleBackColor = true;
             // 
             // tabHelp
             // 
-            resources.ApplyResources(this.tabHelp, "tabHelp");
             this.tabHelp.Controls.Add(this.rtbHelp);
+            resources.ApplyResources(this.tabHelp, "tabHelp");
             this.tabHelp.Name = "tabHelp";
             this.tabHelp.UseVisualStyleBackColor = true;
             // 
@@ -874,8 +863,8 @@
             // 
             // tabLicense
             // 
-            resources.ApplyResources(this.tabLicense, "tabLicense");
             this.tabLicense.Controls.Add(this.rtbLicense);
+            resources.ApplyResources(this.tabLicense, "tabLicense");
             this.tabLicense.Name = "tabLicense";
             this.tabLicense.UseVisualStyleBackColor = true;
             // 
@@ -1057,7 +1046,6 @@
         private System.Windows.Forms.ComboBox cbLanguage;
         private System.Windows.Forms.ComboBox cbSounds;
         private System.Windows.Forms.GroupBox gbOptionsInfo;
-        private System.Windows.Forms.Label lblOptionsInfo3;
         private System.Windows.Forms.Label lblOptionsInfo2;
         private System.Windows.Forms.Label lblOptionsInfo1;
     }

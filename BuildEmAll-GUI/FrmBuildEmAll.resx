@@ -117,1625 +117,1850 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;ssMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lblPathDatsDir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 74</value>
-  </data>
-  <data name="tsbSaveLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 36</value>
-  </data>
-  <data name="&gt;&gt;lblOptionsInfo3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tabPPDBuilder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="rtbLog.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;cbLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtPathPatchesDir.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;txtComment.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblXdeltaBuildCommand.Name" xml:space="preserve">
-    <value>lblXdeltaBuildCommand</value>
-  </data>
-  <data name="lblLanguage.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtMachineName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>637, 20</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tabLicense.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
   <data name="splitContainer4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 6</value>
-  </data>
-  <data name="&gt;&gt;lblPathPatchesDir.Name" xml:space="preserve">
-    <value>lblPathPatchesDir</value>
-  </data>
-  <data name="lblComment.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 230</value>
-  </data>
-  <data name="tsbViewLog.Text" xml:space="preserve">
-    <value>Log</value>
-  </data>
-  <data name="&gt;&gt;lblComment.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="txtXdeltaBuildCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="tsmiExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
-  </data>
-  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 6</value>
-  </data>
-  <data name="&gt;&gt;tsslSnap.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator8.Name" xml:space="preserve">
-    <value>toolStripSeparator8</value>
-  </data>
-  <data name="tssbCancel.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;cbSounds.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblOptionsInfo2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 13</value>
-  </data>
-  <data name="&gt;&gt;tsmiOptions.Name" xml:space="preserve">
-    <value>tsmiOptions</value>
-  </data>
-  <data name="tsmiView.Text" xml:space="preserve">
-    <value>View</value>
-  </data>
-  <data name="btnLoadDat.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="msMain.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="tabLicense.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;txtPathDatPPDXMLFile.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator9.Name" xml:space="preserve">
-    <value>toolStripSeparator9</value>
-  </data>
-  <data name="btnCheckPrepatches.Text" xml:space="preserve">
-    <value>Check Prepatches</value>
-  </data>
-  <data name="&gt;&gt;tabHelp.Parent" xml:space="preserve">
-    <value>tcMain</value>
-  </data>
-  <data name="&gt;&gt;lblComment.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="&gt;&gt;lblSounds.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;tsbViewLicense.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtLoadedDatafile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>289, 20</value>
-  </data>
-  <data name="&gt;&gt;txtLoadedDatafile.Parent" xml:space="preserve">
-    <value>splitContainer5.Panel1</value>
-  </data>
-  <data name="&gt;&gt;tabHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPathDatsDir.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="tsbViewOptions.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="rtbHelp.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="txtPathDatPPDXMLFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 97</value>
-  </data>
-  <data name="&gt;&gt;btnLoadPPD.Name" xml:space="preserve">
-    <value>btnLoadPPD</value>
-  </data>
-  <data name="tsmiOptions.Text" xml:space="preserve">
-    <value>Options</value>
-  </data>
-  <data name="txtLoadedDatafile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="tsbBuildPatchesDatafile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 36</value>
-  </data>
-  <data name="&gt;&gt;lblOptionsInfo1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;ssMain.Name" xml:space="preserve">
-    <value>ssMain</value>
-  </data>
-  <data name="tsbViewHelp.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="txtPathXdeltaFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>637, 20</value>
-  </data>
-  <data name="txtXdeltaBuildCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="lblOptionsInfo3.Text" xml:space="preserve">
-    <value>To change the log level, save the options and restart.</value>
-  </data>
-  <data name="txtMachineName.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;bgwBuildROMs.Type" xml:space="preserve">
-    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiView.Name" xml:space="preserve">
-    <value>tsmiView</value>
-  </data>
-  <data name="cbLogLevel.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;splitContainer5.Panel1.Parent" xml:space="preserve">
-    <value>splitContainer5</value>
-  </data>
-  <data name="&gt;&gt;cbLogLevel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;cbLogLevel.Name" xml:space="preserve">
-    <value>cbLogLevel</value>
-  </data>
-  <data name="lblPathROMsDir.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="splitContainer4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>774, 403</value>
-  </data>
-  <data name="tsMain.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tabPPDBuilder.Parent" xml:space="preserve">
-    <value>tcMain</value>
-  </data>
-  <data name="tsmiBuildPatchesDatafile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
-  </data>
-  <data name="btnLoadPPD.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
-  </data>
-  <data name="tsmiBuildPatches.Text" xml:space="preserve">
-    <value>Build Patches</value>
-  </data>
-  <data name="lblMachineName.Text" xml:space="preserve">
-    <value>Machine Name: </value>
-  </data>
-  <data name="&gt;&gt;txtPathDatsDir.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblOptionsInfo1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbToDat.Name" xml:space="preserve">
-    <value>lbToDat</value>
-  </data>
-  <data name="&gt;&gt;rtbHelp.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;txtPathROMsDir.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="rtbLicense.Size" type="System.Drawing.Size, System.Drawing">
-    <value>774, 403</value>
-  </data>
-  <data name="&gt;&gt;txtXdeltaBuildCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="splitContainer5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>774, 224</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator10.Name" xml:space="preserve">
-    <value>toolStripSeparator10</value>
-  </data>
-  <data name="&gt;&gt;lblLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblXdeltaBuildCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 13</value>
-  </data>
-  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 39</value>
-  </data>
-  <data name="&gt;&gt;splitContainer5.Panel2.Name" xml:space="preserve">
-    <value>splitContainer5.Panel2</value>
-  </data>
-  <data name="lblDelimiter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 13</value>
-  </data>
-  <data name="&gt;&gt;bgwStartupTasks.Type" xml:space="preserve">
-    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tsbSaveLog.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;gbOptionsInfo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;cbLogLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsbViewOptions.Name" xml:space="preserve">
-    <value>tsbViewOptions</value>
-  </data>
-  <data name="&gt;&gt;splitContainer4.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tsMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="cbSounds.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="msMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="lblLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 283</value>
-  </data>
-  <data name="btnLoadPPD.Text" xml:space="preserve">
-    <value>Load PPD</value>
-  </data>
-  <data name="&gt;&gt;tsmiToolbar.Name" xml:space="preserve">
-    <value>tsmiToolbar</value>
-  </data>
-  <data name="&gt;&gt;tsmiCommands.Name" xml:space="preserve">
-    <value>tsmiCommands</value>
-  </data>
-  <data name="btnRemoveAllPrepatches.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="tsbBuildPatches.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="splitContainer4.SplitterDistance" type="System.Int32, mscorlib">
-    <value>224</value>
-  </data>
-  <data name="&gt;&gt;tsbViewOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tabLicense.Text" xml:space="preserve">
-    <value> License </value>
-  </data>
-  <data name="lblXdeltaBuildCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="rtbHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>774, 403</value>
-  </data>
-  <data name="&gt;&gt;lblPathDatPPDXMLFile.Name" xml:space="preserve">
-    <value>lblPathDatPPDXMLFile</value>
-  </data>
-  <data name="tsmiLoadOptions.Text" xml:space="preserve">
-    <value>Load Options</value>
-  </data>
-  <data name="&gt;&gt;lblLanguage.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="cbLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="tsmiPPDBuilder.Text" xml:space="preserve">
-    <value>PPD Builder</value>
-  </data>
-  <data name="splitContainer5.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lbToDat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 186</value>
-  </data>
-  <data name="cbSounds.Items" xml:space="preserve">
-    <value>Off</value>
-  </data>
-  <data name="lblPathXdeltaFile.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblSounds.Text" xml:space="preserve">
-    <value>Sounds: </value>
-  </data>
-  <data name="&gt;&gt;msMain.Name" xml:space="preserve">
-    <value>msMain</value>
-  </data>
-  <data name="lblOptionsInfo1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 16</value>
-  </data>
-  <data name="tsbViewHelp.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="tsbSaveOptions.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="lbPrepatches.Size" type="System.Drawing.Size, System.Drawing">
-    <value>768, 134</value>
-  </data>
-  <data name="&gt;&gt;lblPathDatPPDXMLFile.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="gbOptions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;btnCheckPrepatches.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="lblOptionsInfo3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="tsbViewToolbar.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="&gt;&gt;gbOptions.Name" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="lbFromDat.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tsbSaveLog.Text" xml:space="preserve">
-    <value>Save Log</value>
-  </data>
-  <data name="btnLoadDat.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
-  </data>
-  <data name="lblPathROMsDir.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;splitContainer5.Name" xml:space="preserve">
-    <value>splitContainer5</value>
-  </data>
-  <data name="&gt;&gt;tabHelp.Name" xml:space="preserve">
-    <value>tabHelp</value>
-  </data>
-  <data name="&gt;&gt;txtPathXdeltaFile.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="lblSounds.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 256</value>
-  </data>
-  <data name="cbLogLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>637, 21</value>
-  </data>
-  <data name="tsbBuildROMs.Text" xml:space="preserve">
-    <value>Build ROMs</value>
-  </data>
-  <data name="&gt;&gt;lblCountPrepatches.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblSounds.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gbOptions.Parent" xml:space="preserve">
-    <value>tabOptions</value>
-  </data>
-  <data name="tsbBuildROMs.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="btnLoadDat.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="&gt;&gt;splitContainer4.Name" xml:space="preserve">
-    <value>splitContainer4</value>
-  </data>
-  <data name="tsmiHelp.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="cbLogLevel.Items" xml:space="preserve">
-    <value>Information</value>
-  </data>
-  <data name="tsbBuildPatches.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 36</value>
-  </data>
-  <data name="&gt;&gt;lblLanguage.Name" xml:space="preserve">
-    <value>lblLanguage</value>
-  </data>
-  <data name="tabHelp.Text" xml:space="preserve">
-    <value> Help </value>
-  </data>
-  <data name="splitContainer5.SplitterDistance" type="System.Int32, mscorlib">
-    <value>385</value>
-  </data>
-  <data name="btnRemovePrepatch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="tsmiCommands.Text" xml:space="preserve">
-    <value>BuildEmAll</value>
-  </data>
-  <data name="&gt;&gt;lblPathDatsDir.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtPathROMsDir.Name" xml:space="preserve">
-    <value>txtPathROMsDir</value>
-  </data>
-  <data name="tsmiHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
-  </data>
-  <data name="tsslSnap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>404, 17</value>
-  </data>
-  <data name="cbSounds.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="cbLanguage.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
-    <value>toolStripSeparator5</value>
-  </data>
-  <data name="txtPathXdeltaFile.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="lblPathPatchesDir.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="&gt;&gt;lbToDat.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsbViewLog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tsMain.Text" xml:space="preserve">
-    <value>tsMain</value>
-  </data>
-  <data name="&gt;&gt;btnSavePPD.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer4.Panel1.Parent" xml:space="preserve">
-    <value>splitContainer4</value>
-  </data>
-  <data name="&gt;&gt;tcMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="tsmiBuildPatchesDatafile.Text" xml:space="preserve">
-    <value>Build Patches Datafile</value>
-  </data>
-  <data name="&gt;&gt;tsmiLicense.Name" xml:space="preserve">
-    <value>tsmiLicense</value>
-  </data>
-  <data name="&gt;&gt;rtbLog.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblPathXdeltaFile.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;txtPathXdeltaFile.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;btnRemoveAllPrepatches.Parent" xml:space="preserve">
-    <value>splitContainer5.Panel2</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblXdeltaBuildCommand.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="&gt;&gt;txtMachineName.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="lblPathDatsDir.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 13</value>
-  </data>
-  <data name="&gt;&gt;lblPathDatsDir.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;txtPathDatPPDXMLFile.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="lblOptionsInfo2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lblDelimiter.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="lblXdeltaBuildCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 152</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rtbLicense.Name" xml:space="preserve">
-    <value>rtbLicense</value>
-  </data>
-  <data name="&gt;&gt;splitContainer5.Panel1.Name" xml:space="preserve">
-    <value>splitContainer5.Panel1</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblCountPrepatches.Location" type="System.Drawing.Point, System.Drawing">
-    <value>429, 5</value>
-  </data>
-  <data name="lblDelimiter.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="btnRemoveAllPrepatches.Text" xml:space="preserve">
-    <value>Remove All Prepatches</value>
-  </data>
-  <data name="tsmiPPDBuilder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
-  </data>
-  <data name="&gt;&gt;cbLogLevel.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="&gt;&gt;splitContainer4.Panel2.Name" xml:space="preserve">
-    <value>splitContainer4.Panel2</value>
-  </data>
-  <data name="&gt;&gt;lbPrepatches.Parent" xml:space="preserve">
-    <value>splitContainer4.Panel2</value>
-  </data>
-  <data name="&gt;&gt;txtDelimiter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbFromDat.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnRemovePrepatch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblXdeltaBuildCommand.Text" xml:space="preserve">
-    <value>Xdelta Build Command: </value>
-  </data>
-  <data name="&gt;&gt;tsmiSaveLog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cbLanguage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="tabOptions.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;rtbHelp.Name" xml:space="preserve">
-    <value>rtbHelp</value>
-  </data>
-  <data name="tssbCancel.Text" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
-  <data name="&gt;&gt;txtMachineName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblLogLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 310</value>
-  </data>
-  <data name="lblLanguage.Text" xml:space="preserve">
-    <value>Language: </value>
-  </data>
-  <data name="txtDelimiter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;lblLogLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>BuildEmAll</value>
-  </data>
-  <data name="txtComment.Size" type="System.Drawing.Size, System.Drawing">
-    <value>637, 20</value>
-  </data>
-  <data name="&gt;&gt;txtComment.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="tabPPDBuilder.Text" xml:space="preserve">
-    <value> PPD Builder </value>
-  </data>
-  <data name="btnCheckPrepatches.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 26</value>
-  </data>
-  <data name="tspbBuildProgress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 16</value>
-  </data>
-  <data name="&gt;&gt;txtPathPatchesDir.Name" xml:space="preserve">
-    <value>txtPathPatchesDir</value>
-  </data>
-  <data name="btnSavePPD.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tsmiOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
-  </data>
-  <data name="txtMachineName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 201</value>
-  </data>
-  <data name="btnCheckPrepatches.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;btnLoadDat.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btnRemoveAllPrepatches.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 26</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
-    <value>toolStripSeparator4</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rtbLog.Type" xml:space="preserve">
-    <value>Serilog.Sinks.LogEmAll.RichTextBoxLog, Serilog.Sinks.LogEmAll, Version=0.0.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="lblPathDatPPDXMLFile.Text" xml:space="preserve">
-    <value>Dat/PPD/XML File: </value>
-  </data>
-  <data name="&gt;&gt;lblPathXdeltaFile.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="&gt;&gt;lblXdeltaBuildCommand.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="lblComment.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;tsslStarusMessage.Name" xml:space="preserve">
-    <value>tsslStarusMessage</value>
-  </data>
-  <data name="lblOptionsInfo1.Text" xml:space="preserve">
-    <value>Xdelta Command must end with '-s' and should not contain '-v'</value>
-  </data>
-  <data name="&gt;&gt;cbSounds.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tsmiBuildPatches.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;lblMachineName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblSounds.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 13</value>
-  </data>
-  <data name="txtLoadedDatafile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 7</value>
-  </data>
-  <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 6</value>
-  </data>
-  <data name="&gt;&gt;gbOptions.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tsmiExit.Name" xml:space="preserve">
-    <value>tsmiExit</value>
-  </data>
-  <data name="&gt;&gt;splitContainer5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblSounds.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="tsMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>794, 39</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="gbOptionsInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btnSavePPD.Text" xml:space="preserve">
-    <value>Save PPD</value>
-  </data>
-  <data name="splitContainer4.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lblCountPrepatches.Text" xml:space="preserve">
-    <value>0 Prepatches</value>
-  </data>
-  <data name="tcMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>794, 441</value>
-  </data>
-  <data name="&gt;&gt;lblPathPatchesDir.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="tssbCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>21, 20</value>
-  </data>
-  <data name="tabLicense.Size" type="System.Drawing.Size, System.Drawing">
-    <value>786, 415</value>
-  </data>
-  <data name="tabPPDBuilder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>786, 415</value>
-  </data>
-  <data name="&gt;&gt;splitContainer4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;rtbLicense.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnLoadPPD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 26</value>
-  </data>
-  <data name="&gt;&gt;ssMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lbFromDat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 6</value>
-  </data>
-  <data name="btnSavePPD.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
-  </data>
-  <data name="&gt;&gt;txtLoadedDatafile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsbSaveLog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsslStarusMessage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiSaveLog.Name" xml:space="preserve">
-    <value>tsmiSaveLog</value>
-  </data>
-  <data name="&gt;&gt;tssbCancel.Name" xml:space="preserve">
-    <value>tssbCancel</value>
-  </data>
-  <data name="&gt;&gt;lblPathROMsDir.Name" xml:space="preserve">
-    <value>lblPathROMsDir</value>
-  </data>
-  <data name="tsmiView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
-  </data>
-  <data name="tsmiLicense.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
-  </data>
-  <data name="&gt;&gt;lblLogLevel.Name" xml:space="preserve">
-    <value>lblLogLevel</value>
-  </data>
-  <data name="&gt;&gt;tabLicense.Name" xml:space="preserve">
-    <value>tabLicense</value>
-  </data>
-  <data name="&gt;&gt;tsmiLoadOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer5.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbLogLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="&gt;&gt;lblComment.Name" xml:space="preserve">
-    <value>lblComment</value>
-  </data>
-  <data name="&gt;&gt;lblPathXdeltaFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnLoadPPD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="tsbViewHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 36</value>
-  </data>
-  <data name="ssMain.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;bgwBuildPatches.Name" xml:space="preserve">
-    <value>bgwBuildPatches</value>
-  </data>
-  <data name="btnAddPrepatch.Text" xml:space="preserve">
-    <value>Add Prepatch</value>
-  </data>
-  <data name="&gt;&gt;gbOptionsInfo.Parent" xml:space="preserve">
-    <value>tabOptions</value>
-  </data>
-  <data name="&gt;&gt;txtPathDatsDir.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabHelp.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>794, 526</value>
-  </data>
-  <data name="tsmiToolbar.Text" xml:space="preserve">
-    <value>Toolbar</value>
-  </data>
-  <data name="&gt;&gt;tcMain.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="txtPathDatsDir.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="rtbLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="cbSounds.Items1" xml:space="preserve">
-    <value>On</value>
-  </data>
-  <data name="lblMachineName.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="tsmiBuildPatches.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
-  </data>
-  <data name="tsmiSaveLog.Text" xml:space="preserve">
-    <value>Save Log</value>
-  </data>
-  <data name="gbOptionsInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;tsbViewPPDBuilder.Name" xml:space="preserve">
-    <value>tsbViewPPDBuilder</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtPathROMsDir.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="splitContainer5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;lbFromDat.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtPathPatchesDir.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="tabLog.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;splitContainer4.Panel1.Name" xml:space="preserve">
-    <value>splitContainer4.Panel1</value>
-  </data>
-  <data name="tsbSaveOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 36</value>
-  </data>
-  <data name="lblPathDatPPDXMLFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 13</value>
-  </data>
-  <data name="&gt;&gt;splitContainer5.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtXdeltaBuildCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 149</value>
-  </data>
-  <data name="&gt;&gt;ssMain.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 6</value>
-  </data>
-  <data name="lblLogLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 13</value>
-  </data>
-  <data name="&gt;&gt;tsmiPPDBuilder.Name" xml:space="preserve">
-    <value>tsmiPPDBuilder</value>
-  </data>
-  <data name="btnLoadPPD.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="txtPathDatsDir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 71</value>
-  </data>
-  <data name="lblLogLevel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblPathDatsDir.Text" xml:space="preserve">
-    <value>Dats Dir: </value>
-  </data>
-  <data name="lblPathROMsDir.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 13</value>
-  </data>
-  <data name="gbOptions.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="txtPathXdeltaFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 123</value>
-  </data>
-  <data name="tabOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="&gt;&gt;lblSounds.Name" xml:space="preserve">
-    <value>lblSounds</value>
-  </data>
-  <data name="tsmiBuildROMs.Text" xml:space="preserve">
-    <value>Build ROMs</value>
-  </data>
-  <data name="&gt;&gt;tsmiBuildPatches.Name" xml:space="preserve">
-    <value>tsmiBuildPatches</value>
-  </data>
-  <data name="&gt;&gt;txtXdeltaBuildCommand.Name" xml:space="preserve">
-    <value>txtXdeltaBuildCommand</value>
-  </data>
-  <data name="tsslStarusMessage.Text" xml:space="preserve">
-    <value>Performing Startup Tasks ...</value>
-  </data>
-  <data name="tsbViewToolbar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 36</value>
-  </data>
-  <data name="&gt;&gt;lblPathROMsDir.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="txtPathDatPPDXMLFile.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;tsmiOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblMachineName.Name" xml:space="preserve">
-    <value>lblMachineName</value>
-  </data>
-  <data name="txtPathPatchesDir.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="rtbLicense.Location" type="System.Drawing.Point, System.Drawing">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainer4.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 6</value>
-  </data>
-  <data name="lbPrepatches.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;tabLicense.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;tsmiExit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtPathDatPPDXMLFile.Name" xml:space="preserve">
-    <value>txtPathDatPPDXMLFile</value>
-  </data>
-  <data name="tsbLoadOptions.Text" xml:space="preserve">
-    <value>Load Options</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblLogLevel.Text" xml:space="preserve">
-    <value>Log Level: </value>
-  </data>
-  <data name="cbSounds.Size" type="System.Drawing.Size, System.Drawing">
-    <value>637, 21</value>
-  </data>
-  <data name="lbFromDat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 186</value>
-  </data>
-  <data name="&gt;&gt;lbPrepatches.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="rtbHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
-  </data>
-  <data name="txtMachineName.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="&gt;&gt;txtPathDatsDir.Name" xml:space="preserve">
-    <value>txtPathDatsDir</value>
-  </data>
-  <data name="lblComment.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtDelimiter.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="lblMachineName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="cbSounds.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="&gt;&gt;bgwBuildDatafile.Name" xml:space="preserve">
-    <value>bgwBuildDatafile</value>
-  </data>
-  <data name="gbOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
-  </data>
-  <data name="&gt;&gt;tsbLoadOptions.Name" xml:space="preserve">
-    <value>tsbLoadOptions</value>
-  </data>
-  <data name="lblOptionsInfo1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;btnLoadDat.Name" xml:space="preserve">
-    <value>btnLoadDat</value>
-  </data>
-  <data name="&gt;&gt;tsbLoadOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtPathPatchesDir.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtLoadedDatafile.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lblComment.Text" xml:space="preserve">
-    <value>Coment: </value>
-  </data>
-  <data name="gbOptionsInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 346</value>
-  </data>
-  <data name="cbLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 280</value>
-  </data>
-  <data name="lbToDat.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;tabOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cbLogLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 307</value>
-  </data>
-  <data name="btnSavePPD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 3</value>
-  </data>
-  <data name="&gt;&gt;lbPrepatches.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblDelimiter.Name" xml:space="preserve">
-    <value>lblDelimiter</value>
-  </data>
-  <data name="&gt;&gt;tsbSaveOptions.Name" xml:space="preserve">
-    <value>tsbSaveOptions</value>
-  </data>
-  <data name="&gt;&gt;btnRemovePrepatch.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;txtXdeltaBuildCommand.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;lblPathDatPPDXMLFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tabOptions.Text" xml:space="preserve">
-    <value> Options </value>
-  </data>
-  <data name="tsmiLoadOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
-  </data>
-  <data name="&gt;&gt;tsbViewToolbar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblOptionsInfo2.Text" xml:space="preserve">
-    <value>To change the language, save the options and restart.</value>
-  </data>
-  <data name="&gt;&gt;cbLanguage.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="gbOptions.Text" xml:space="preserve">
-    <value>Options</value>
-  </data>
-  <data name="lblPathXdeltaFile.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;txtPathDatPPDXMLFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnRemovePrepatch.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;txtLoadedDatafile.Name" xml:space="preserve">
-    <value>txtLoadedDatafile</value>
-  </data>
-  <data name="tsbSaveOptions.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;btnLoadPPD.Parent" xml:space="preserve">
-    <value>splitContainer4.Panel2</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator11.Name" xml:space="preserve">
-    <value>toolStripSeparator11</value>
-  </data>
-  <data name="lblPathPatchesDir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 48</value>
-  </data>
-  <data name="&gt;&gt;btnCheckPrepatches.Name" xml:space="preserve">
-    <value>btnCheckPrepatches</value>
-  </data>
-  <data name="&gt;&gt;tsmiLoadOptions.Name" xml:space="preserve">
-    <value>tsmiLoadOptions</value>
-  </data>
-  <data name="txtPathROMsDir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 19</value>
-  </data>
-  <data name="btnRemoveAllPrepatches.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
-  </data>
-  <data name="&gt;&gt;lblPathXdeltaFile.Name" xml:space="preserve">
-    <value>lblPathXdeltaFile</value>
-  </data>
-  <data name="txtComment.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;tsmiView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tsbLoadOptions.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;bgwStartupTasks.Name" xml:space="preserve">
-    <value>bgwStartupTasks</value>
-  </data>
-  <data name="rtbHelp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;lblDelimiter.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="btnLoadDat.Text" xml:space="preserve">
-    <value>Load Dat</value>
-  </data>
-  <data name="tsbViewPPDBuilder.Text" xml:space="preserve">
-    <value>PPD Builder</value>
-  </data>
-  <data name="lblOptionsInfo2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tsmiLog.Text" xml:space="preserve">
-    <value>Log</value>
-  </data>
-  <data name="lbPrepatches.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 35</value>
-  </data>
-  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 39</value>
-  </data>
-  <data name="txtComment.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 227</value>
-  </data>
-  <data name="&gt;&gt;lblPathPatchesDir.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblLogLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
-  <data name="tsbViewLicense.Text" xml:space="preserve">
-    <value>License</value>
-  </data>
-  <data name="&gt;&gt;splitContainer5.Parent" xml:space="preserve">
-    <value>splitContainer4.Panel1</value>
-  </data>
-  <data name="tsmiExit.Text" xml:space="preserve">
-    <value>Exit</value>
-  </data>
-  <data name="tabOptions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tsbSaveLog.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="&gt;&gt;tsbBuildPatches.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer4.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtMachineName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="txtPathXdeltaFile.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="btnAddPrepatch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 26</value>
-  </data>
-  <data name="&gt;&gt;txtPathROMsDir.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tsmiCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 20</value>
-  </data>
-  <data name="&gt;&gt;splitContainer4.Parent" xml:space="preserve">
-    <value>tabPPDBuilder</value>
-  </data>
-  <data name="tsbBuildROMs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 36</value>
-  </data>
-  <data name="txtPathROMsDir.Size" type="System.Drawing.Size, System.Drawing">
-    <value>637, 20</value>
-  </data>
-  <data name="&gt;&gt;lblXdeltaBuildCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tabLog.Text" xml:space="preserve">
-    <value> Log </value>
-  </data>
-  <data name="lblOptionsInfo1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="tabHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>786, 415</value>
-  </data>
-  <data name="lblPathXdeltaFile.Text" xml:space="preserve">
-    <value>Xdelta File: </value>
-  </data>
-  <data name="&gt;&gt;txtMachineName.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="&gt;&gt;tsmiBuildPatchesDatafile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblSounds.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
   </data>
   <data name="splitContainer4.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
   </data>
-  <data name="&gt;&gt;tsmiSaveOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="splitContainer5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="&gt;&gt;tsmiToolbar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="splitContainer5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;txtComment.Name" xml:space="preserve">
-    <value>txtComment</value>
+  <data name="txtLoadedDatafile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
-  <data name="txtComment.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
+  <data name="txtLoadedDatafile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 7</value>
   </data>
-  <data name="&gt;&gt;tabPPDBuilder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="txtLoadedDatafile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 20</value>
   </data>
-  <data name="&gt;&gt;lblLanguage.Parent" xml:space="preserve">
-    <value>gbOptions</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtLoadedDatafile.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="lblPathDatPPDXMLFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 100</value>
+  <data name="&gt;&gt;txtLoadedDatafile.Name" xml:space="preserve">
+    <value>txtLoadedDatafile</value>
   </data>
-  <data name="&gt;&gt;btnRemoveAllPrepatches.Name" xml:space="preserve">
-    <value>btnRemoveAllPrepatches</value>
+  <data name="&gt;&gt;txtLoadedDatafile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblPathDatsDir.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="&gt;&gt;txtLoadedDatafile.Parent" xml:space="preserve">
+    <value>splitContainer5.Panel1</value>
   </data>
-  <data name="tsbBuildPatches.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;txtLoadedDatafile.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;tsmiBuildROMs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ssMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 504</value>
-  </data>
-  <data name="&gt;&gt;tsbViewLog.Name" xml:space="preserve">
-    <value>tsbViewLog</value>
-  </data>
-  <data name="txtXdeltaBuildCommand.Text" xml:space="preserve">
-    <value>-e -9 -s</value>
-  </data>
-  <data name="&gt;&gt;tsbViewHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ssMain.Text" xml:space="preserve">
-    <value>ssMain</value>
-  </data>
-  <data name="btnAddPrepatch.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
-  </data>
-  <data name="lblOptionsInfo3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>259, 13</value>
-  </data>
-  <data name="tabHelp.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;splitContainer5.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="lbFromDat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="lbFromDat.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 35</value>
   </data>
-  <data name="txtPathROMsDir.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+  <data name="lbFromDat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 186</value>
   </data>
-  <data name="txtPathDatsDir.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="lbFromDat.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;bgwBuildDatafile.Type" xml:space="preserve">
-    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lbFromDat.Name" xml:space="preserve">
+    <value>lbFromDat</value>
   </data>
-  <data name="&gt;&gt;lblPathDatsDir.Name" xml:space="preserve">
-    <value>lblPathDatsDir</value>
-  </data>
-  <data name="&gt;&gt;tsmiHelp.Name" xml:space="preserve">
-    <value>tsmiHelp</value>
-  </data>
-  <data name="rtbLicense.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="tcMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;lblOptionsInfo2.Parent" xml:space="preserve">
-    <value>gbOptionsInfo</value>
-  </data>
-  <data name="txtPathPatchesDir.Size" type="System.Drawing.Size, System.Drawing">
-    <value>637, 20</value>
-  </data>
-  <data name="gbOptionsInfo.Text" xml:space="preserve">
-    <value>Options Info</value>
-  </data>
-  <data name="&gt;&gt;lblCountPrepatches.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;tabLog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer5.Panel2.Parent" xml:space="preserve">
-    <value>splitContainer5</value>
-  </data>
-  <data name="txtXdeltaBuildCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>637, 20</value>
-  </data>
-  <data name="btnRemovePrepatch.Text" xml:space="preserve">
-    <value>Remove Prepatch</value>
-  </data>
-  <data name="&gt;&gt;tsbViewLicense.Name" xml:space="preserve">
-    <value>tsbViewLicense</value>
-  </data>
-  <data name="&gt;&gt;btnCheckPrepatches.Parent" xml:space="preserve">
-    <value>splitContainer4.Panel2</value>
-  </data>
-  <data name="&gt;&gt;lblPathROMsDir.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="&gt;&gt;btnSavePPD.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="tsmiSaveOptions.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;lblOptionsInfo3.Parent" xml:space="preserve">
-    <value>gbOptionsInfo</value>
-  </data>
-  <data name="&gt;&gt;tsslSnap.Name" xml:space="preserve">
-    <value>tsslSnap</value>
-  </data>
-  <data name="tsbViewLicense.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="&gt;&gt;msMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="splitContainer4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
-  </data>
-  <data name="&gt;&gt;splitContainer5.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtPathXdeltaFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPathROMsDir.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblPathPatchesDir.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;lblSounds.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="rtbLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
-  </data>
-  <data name="lblOptionsInfo2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 31</value>
-  </data>
-  <data name="&gt;&gt;splitContainer5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnAddPrepatch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="toolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 6</value>
-  </data>
-  <data name="tsmiSaveLog.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;bgwBuildROMs.Name" xml:space="preserve">
-    <value>bgwBuildROMs</value>
-  </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 6</value>
-  </data>
-  <data name="tsbViewPPDBuilder.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="btnAddPrepatch.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="cbLanguage.Items" xml:space="preserve">
-    <value>en</value>
-  </data>
-  <data name="gbOptionsInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>774, 63</value>
-  </data>
-  <data name="&gt;&gt;btnLoadDat.Parent" xml:space="preserve">
-    <value>splitContainer5.Panel1</value>
-  </data>
-  <data name="&gt;&gt;btnSavePPD.Parent" xml:space="preserve">
-    <value>splitContainer4.Panel2</value>
-  </data>
-  <data name="txtComment.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;btnAddPrepatch.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lblDelimiter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 178</value>
-  </data>
-  <data name="&gt;&gt;tsbSaveLog.Name" xml:space="preserve">
-    <value>tsbSaveLog</value>
-  </data>
-  <data name="txtDelimiter.Text" xml:space="preserve">
-    <value> -- </value>
-  </data>
-  <data name="&gt;&gt;splitContainer4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnLoadDat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 26</value>
-  </data>
-  <data name="&gt;&gt;tsmiBuildPatchesDatafile.Name" xml:space="preserve">
-    <value>tsmiBuildPatchesDatafile</value>
-  </data>
-  <data name="tsmiBuildROMs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
-  </data>
-  <data name="&gt;&gt;txtPathXdeltaFile.Name" xml:space="preserve">
-    <value>txtPathXdeltaFile</value>
-  </data>
-  <data name="&gt;&gt;tsbViewToolbar.Name" xml:space="preserve">
-    <value>tsbViewToolbar</value>
+  <data name="&gt;&gt;lbFromDat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lbFromDat.Parent" xml:space="preserve">
     <value>splitContainer5.Panel1</value>
   </data>
-  <data name="tsmiBuildPatchesDatafile.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;lbFromDat.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="lblDelimiter.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnLoadDat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
   </data>
-  <data name="tcMain.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnLoadDat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 26</value>
+  </data>
+  <data name="btnLoadDat.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnLoadDat.Text" xml:space="preserve">
+    <value>Load Dat</value>
+  </data>
+  <data name="btnLoadDat.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnLoadDat.Name" xml:space="preserve">
+    <value>btnLoadDat</value>
+  </data>
+  <data name="&gt;&gt;btnLoadDat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoadDat.Parent" xml:space="preserve">
+    <value>splitContainer5.Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnLoadDat.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer5.Panel1.Name" xml:space="preserve">
+    <value>splitContainer5.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer5.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer5.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer5</value>
+  </data>
+  <data name="&gt;&gt;splitContainer5.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbToDat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbToDat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 35</value>
+  </data>
+  <data name="lbToDat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 186</value>
+  </data>
+  <data name="lbToDat.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="tsbBuildPatches.Text" xml:space="preserve">
-    <value>Build Patches</value>
+  <data name="&gt;&gt;lbToDat.Name" xml:space="preserve">
+    <value>lbToDat</value>
   </data>
-  <data name="&gt;&gt;tabLicense.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lbToDat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tabLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>786, 415</value>
+  <data name="&gt;&gt;lbToDat.Parent" xml:space="preserve">
+    <value>splitContainer5.Panel2</value>
   </data>
-  <data name="tsbLoadOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 36</value>
-  </data>
-  <data name="&gt;&gt;rtbLog.Name" xml:space="preserve">
-    <value>rtbLog</value>
-  </data>
-  <data name="lblPathXdeltaFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 126</value>
-  </data>
-  <data name="&gt;&gt;tsmiBuildROMs.Name" xml:space="preserve">
-    <value>tsmiBuildROMs</value>
-  </data>
-  <data name="&gt;&gt;txtDelimiter.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="lblPathROMsDir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 22</value>
-  </data>
-  <data name="rtbLicense.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;lbToDat.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="btnRemoveAllPrepatches.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="btnRemoveAllPrepatches.Location" type="System.Drawing.Point, System.Drawing">
     <value>232, 3</value>
   </data>
-  <data name="rtbLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>774, 403</value>
-  </data>
-  <data name="lblPathPatchesDir.Text" xml:space="preserve">
-    <value>Patches Dir: </value>
-  </data>
-  <data name="txtPathROMsDir.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="txtPathPatchesDir.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="txtDelimiter.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;lblDelimiter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabOptions.Name" xml:space="preserve">
-    <value>tabOptions</value>
-  </data>
-  <data name="&gt;&gt;cbLanguage.Name" xml:space="preserve">
-    <value>cbLanguage</value>
-  </data>
-  <data name="&gt;&gt;lblLogLevel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="tsbBuildPatchesDatafile.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="&gt;&gt;tabLog.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="btnRemoveAllPrepatches.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 26</value>
   </data>
   <data name="btnRemoveAllPrepatches.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;lblMachineName.Parent" xml:space="preserve">
-    <value>gbOptions</value>
+  <data name="btnRemoveAllPrepatches.Text" xml:space="preserve">
+    <value>Remove All Prepatches</value>
   </data>
-  <data name="&gt;&gt;tabLog.Parent" xml:space="preserve">
-    <value>tcMain</value>
+  <data name="btnRemoveAllPrepatches.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
   </data>
-  <data name="&gt;&gt;tsmiHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnRemoveAllPrepatches.Name" xml:space="preserve">
+    <value>btnRemoveAllPrepatches</value>
   </data>
-  <data name="tsbBuildPatchesDatafile.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;btnRemoveAllPrepatches.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblPathDatsDir.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;btnRemoveAllPrepatches.Parent" xml:space="preserve">
+    <value>splitContainer5.Panel2</value>
   </data>
-  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 6</value>
+  <data name="&gt;&gt;btnRemoveAllPrepatches.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="lblCountPrepatches.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="btnAddPrepatch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
   <data name="btnAddPrepatch.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
-  <data name="&gt;&gt;tabPPDBuilder.Name" xml:space="preserve">
+  <data name="btnAddPrepatch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="btnAddPrepatch.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnAddPrepatch.Text" xml:space="preserve">
+    <value>Add Prepatch</value>
+  </data>
+  <data name="btnAddPrepatch.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnAddPrepatch.Name" xml:space="preserve">
+    <value>btnAddPrepatch</value>
+  </data>
+  <data name="&gt;&gt;btnAddPrepatch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddPrepatch.Parent" xml:space="preserve">
+    <value>splitContainer5.Panel2</value>
+  </data>
+  <data name="&gt;&gt;btnAddPrepatch.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnRemovePrepatch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnRemovePrepatch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 3</value>
+  </data>
+  <data name="btnRemovePrepatch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 26</value>
+  </data>
+  <data name="btnRemovePrepatch.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnRemovePrepatch.Text" xml:space="preserve">
+    <value>Remove Prepatch</value>
+  </data>
+  <data name="btnRemovePrepatch.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnRemovePrepatch.Name" xml:space="preserve">
+    <value>btnRemovePrepatch</value>
+  </data>
+  <data name="&gt;&gt;btnRemovePrepatch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemovePrepatch.Parent" xml:space="preserve">
+    <value>splitContainer5.Panel2</value>
+  </data>
+  <data name="&gt;&gt;btnRemovePrepatch.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;splitContainer5.Panel2.Name" xml:space="preserve">
+    <value>splitContainer5.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer5.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer5.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer5</value>
+  </data>
+  <data name="&gt;&gt;splitContainer5.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>774, 224</value>
+  </data>
+  <data name="splitContainer5.SplitterDistance" type="System.Int32, mscorlib">
+    <value>385</value>
+  </data>
+  <data name="splitContainer5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer5.Name" xml:space="preserve">
+    <value>splitContainer5</value>
+  </data>
+  <data name="&gt;&gt;splitContainer5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer5.Parent" xml:space="preserve">
+    <value>splitContainer4.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Panel1.Name" xml:space="preserve">
+    <value>splitContainer4.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer4</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbPrepatches.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbPrepatches.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 35</value>
+  </data>
+  <data name="lbPrepatches.Size" type="System.Drawing.Size, System.Drawing">
+    <value>768, 134</value>
+  </data>
+  <data name="lbPrepatches.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lbPrepatches.Name" xml:space="preserve">
+    <value>lbPrepatches</value>
+  </data>
+  <data name="&gt;&gt;lbPrepatches.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPrepatches.Parent" xml:space="preserve">
+    <value>splitContainer4.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lbPrepatches.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnLoadPPD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="btnLoadPPD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 26</value>
+  </data>
+  <data name="btnLoadPPD.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnLoadPPD.Text" xml:space="preserve">
+    <value>Load PPD</value>
+  </data>
+  <data name="btnLoadPPD.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnLoadPPD.Name" xml:space="preserve">
+    <value>btnLoadPPD</value>
+  </data>
+  <data name="&gt;&gt;btnLoadPPD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoadPPD.Parent" xml:space="preserve">
+    <value>splitContainer4.Panel2</value>
+  </data>
+  <data name="&gt;&gt;btnLoadPPD.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblCountPrepatches.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblCountPrepatches.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 5</value>
+  </data>
+  <data name="lblCountPrepatches.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 23</value>
+  </data>
+  <data name="lblCountPrepatches.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblCountPrepatches.Text" xml:space="preserve">
+    <value>0 Prepatches</value>
+  </data>
+  <data name="lblCountPrepatches.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblCountPrepatches.Name" xml:space="preserve">
+    <value>lblCountPrepatches</value>
+  </data>
+  <data name="&gt;&gt;lblCountPrepatches.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCountPrepatches.Parent" xml:space="preserve">
+    <value>splitContainer4.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblCountPrepatches.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSavePPD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 3</value>
+  </data>
+  <data name="btnSavePPD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 26</value>
+  </data>
+  <data name="btnSavePPD.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnSavePPD.Text" xml:space="preserve">
+    <value>Save PPD</value>
+  </data>
+  <data name="btnSavePPD.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnSavePPD.Name" xml:space="preserve">
+    <value>btnSavePPD</value>
+  </data>
+  <data name="&gt;&gt;btnSavePPD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSavePPD.Parent" xml:space="preserve">
+    <value>splitContainer4.Panel2</value>
+  </data>
+  <data name="&gt;&gt;btnSavePPD.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnCheckPrepatches.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnCheckPrepatches.Location" type="System.Drawing.Point, System.Drawing">
+    <value>649, 3</value>
+  </data>
+  <data name="btnCheckPrepatches.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 26</value>
+  </data>
+  <data name="btnCheckPrepatches.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnCheckPrepatches.Text" xml:space="preserve">
+    <value>Check Prepatches</value>
+  </data>
+  <data name="btnCheckPrepatches.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnCheckPrepatches.Name" xml:space="preserve">
+    <value>btnCheckPrepatches</value>
+  </data>
+  <data name="&gt;&gt;btnCheckPrepatches.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCheckPrepatches.Parent" xml:space="preserve">
+    <value>splitContainer4.Panel2</value>
+  </data>
+  <data name="&gt;&gt;btnCheckPrepatches.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Panel2.Name" xml:space="preserve">
+    <value>splitContainer4.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer4</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>774, 403</value>
+  </data>
+  <data name="splitContainer4.SplitterDistance" type="System.Int32, mscorlib">
+    <value>224</value>
+  </data>
+  <data name="splitContainer4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Name" xml:space="preserve">
+    <value>splitContainer4</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Parent" xml:space="preserve">
     <value>tabPPDBuilder</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="msMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="tsmiBuildROMs.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsmiBuildROMs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="tsmiBuildROMs.Text" xml:space="preserve">
+    <value>Build ROMs</value>
+  </data>
+  <data name="tsmiBuildPatches.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsmiBuildPatches.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="tsmiBuildPatches.Text" xml:space="preserve">
+    <value>Build Patches</value>
+  </data>
+  <data name="tsmiBuildPatchesDatafile.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsmiBuildPatchesDatafile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="tsmiBuildPatchesDatafile.Text" xml:space="preserve">
+    <value>Build Patches Datafile</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 6</value>
+  </data>
+  <data name="tsmiLoadOptions.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsmiLoadOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="tsmiLoadOptions.Text" xml:space="preserve">
+    <value>Load Options</value>
+  </data>
+  <data name="tsmiSaveOptions.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsmiSaveOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
   </data>
   <data name="tsmiSaveOptions.Text" xml:space="preserve">
     <value>Save Options</value>
   </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 6</value>
+  </data>
+  <data name="tsmiSaveLog.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsmiSaveLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="tsmiSaveLog.Text" xml:space="preserve">
+    <value>Save Log</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 6</value>
+  </data>
+  <data name="tsmiExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="tsmiExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="tsmiCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="tsmiCommands.Text" xml:space="preserve">
+    <value>BuildEmAll</value>
+  </data>
+  <data name="tsmiLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="tsmiLog.Text" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 6</value>
+  </data>
+  <data name="tsmiOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="tsmiOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 6</value>
+  </data>
+  <data name="tsmiPPDBuilder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="tsmiPPDBuilder.Text" xml:space="preserve">
+    <value>PPD Builder</value>
+  </data>
+  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 6</value>
+  </data>
+  <data name="tsmiHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="tsmiHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 6</value>
+  </data>
+  <data name="tsmiLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="tsmiLicense.Text" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="toolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 6</value>
+  </data>
+  <data name="tsmiToolbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="tsmiToolbar.Text" xml:space="preserve">
+    <value>Toolbar</value>
+  </data>
+  <data name="tsmiView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="tsmiView.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="msMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="msMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 24</value>
+  </data>
+  <data name="msMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="msMain.Text" xml:space="preserve">
+    <value>msMain</value>
+  </data>
+  <data name="&gt;&gt;msMain.Name" xml:space="preserve">
+    <value>msMain</value>
+  </data>
+  <data name="&gt;&gt;msMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;msMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;msMain.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="tsMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>112, 17</value>
+  </metadata>
+  <data name="tsbBuildROMs.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsbBuildROMs.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbBuildROMs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="tsbBuildROMs.Text" xml:space="preserve">
+    <value>Build ROMs</value>
+  </data>
+  <data name="tsbBuildPatches.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsbBuildPatches.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbBuildPatches.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="tsbBuildPatches.Text" xml:space="preserve">
+    <value>Build Patches</value>
+  </data>
+  <data name="tsbBuildPatchesDatafile.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsbBuildPatchesDatafile.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbBuildPatchesDatafile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="tsbBuildPatchesDatafile.Text" xml:space="preserve">
+    <value>Build Patches Datafile</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="tsbLoadOptions.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsbLoadOptions.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbLoadOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="tsbLoadOptions.Text" xml:space="preserve">
+    <value>Load Options</value>
+  </data>
+  <data name="tsbSaveOptions.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsbSaveOptions.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbSaveOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="tsbSaveOptions.Text" xml:space="preserve">
+    <value>Save Options</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="tsbSaveLog.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsbSaveLog.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbSaveLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="tsbSaveLog.Text" xml:space="preserve">
+    <value>Save Log</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="tsbViewLog.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbViewLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="tsbViewLog.Text" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="tsbViewOptions.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbViewOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="tsbViewOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="tsbViewPPDBuilder.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbViewPPDBuilder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="tsbViewPPDBuilder.Text" xml:space="preserve">
+    <value>PPD Builder</value>
+  </data>
+  <data name="tsbViewHelp.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbViewHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="tsbViewHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="tsbViewLicense.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbViewLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="tsbViewLicense.Text" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="tsbViewToolbar.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbViewToolbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="tsbViewToolbar.Text" xml:space="preserve">
+    <value>Toolbar</value>
+  </data>
+  <data name="tsMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="tsMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 39</value>
+  </data>
+  <data name="tsMain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tsMain.Text" xml:space="preserve">
+    <value>tsMain</value>
+  </data>
+  <data name="&gt;&gt;tsMain.Name" xml:space="preserve">
+    <value>tsMain</value>
+  </data>
+  <data name="&gt;&gt;tsMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tsMain.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="ssMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>200, 17</value>
+  </metadata>
+  <data name="tsslSnap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 17</value>
+  </data>
+  <data name="tsslStarusMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 17</value>
+  </data>
+  <data name="tsslStarusMessage.Text" xml:space="preserve">
+    <value>Performing Startup Tasks ...</value>
+  </data>
+  <data name="tspbBuildProgress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 16</value>
+  </data>
+  <data name="tssbCancel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tssbCancel.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tssbCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="tssbCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ssMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 504</value>
+  </data>
+  <data name="ssMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 22</value>
+  </data>
+  <data name="ssMain.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ssMain.Text" xml:space="preserve">
+    <value>ssMain</value>
+  </data>
+  <data name="&gt;&gt;ssMain.Name" xml:space="preserve">
+    <value>ssMain</value>
+  </data>
+  <data name="&gt;&gt;ssMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ssMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ssMain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rtbLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="rtbLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="rtbLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>774, 403</value>
+  </data>
+  <data name="rtbLog.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtbLog.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rtbLog.Name" xml:space="preserve">
+    <value>rtbLog</value>
+  </data>
+  <data name="&gt;&gt;rtbLog.Type" xml:space="preserve">
+    <value>Serilog.Sinks.LogEmAll.RichTextBoxLog, Serilog.Sinks.LogEmAll, Version=0.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rtbLog.Parent" xml:space="preserve">
+    <value>tabLog</value>
+  </data>
+  <data name="&gt;&gt;rtbLog.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabLog.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 415</value>
+  </data>
+  <data name="tabLog.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabLog.Text" xml:space="preserve">
+    <value> Log </value>
+  </data>
+  <data name="&gt;&gt;tabLog.Name" xml:space="preserve">
+    <value>tabLog</value>
+  </data>
+  <data name="&gt;&gt;tabLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabLog.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;tabLog.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbOptionsInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblOptionsInfo2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOptionsInfo2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="lblOptionsInfo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 13</value>
+  </data>
+  <data name="lblOptionsInfo2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblOptionsInfo2.Text" xml:space="preserve">
+    <value>To change the language or log level, save the options and restart the app.</value>
+  </data>
+  <data name="&gt;&gt;lblOptionsInfo2.Name" xml:space="preserve">
+    <value>lblOptionsInfo2</value>
+  </data>
+  <data name="&gt;&gt;lblOptionsInfo2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOptionsInfo2.Parent" xml:space="preserve">
+    <value>gbOptionsInfo</value>
+  </data>
+  <data name="&gt;&gt;lblOptionsInfo2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblOptionsInfo1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOptionsInfo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="lblOptionsInfo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 13</value>
+  </data>
+  <data name="lblOptionsInfo1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblOptionsInfo1.Text" xml:space="preserve">
+    <value>Xdelta Command must end with '-s' and should not contain '-v'</value>
+  </data>
+  <data name="&gt;&gt;lblOptionsInfo1.Name" xml:space="preserve">
+    <value>lblOptionsInfo1</value>
+  </data>
+  <data name="&gt;&gt;lblOptionsInfo1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOptionsInfo1.Parent" xml:space="preserve">
+    <value>gbOptionsInfo</value>
+  </data>
+  <data name="&gt;&gt;lblOptionsInfo1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gbOptionsInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 346</value>
+  </data>
+  <data name="gbOptionsInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>774, 45</value>
+  </data>
+  <data name="gbOptionsInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gbOptionsInfo.Text" xml:space="preserve">
+    <value>Options Info</value>
+  </data>
+  <data name="&gt;&gt;gbOptionsInfo.Name" xml:space="preserve">
+    <value>gbOptionsInfo</value>
+  </data>
+  <data name="&gt;&gt;gbOptionsInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbOptionsInfo.Parent" xml:space="preserve">
+    <value>tabOptions</value>
+  </data>
+  <data name="&gt;&gt;gbOptionsInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbOptions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cbLogLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cbLogLevel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbLogLevel.Items" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="cbLogLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 307</value>
+  </data>
+  <data name="cbLogLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>637, 21</value>
+  </data>
+  <data name="cbLogLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;cbLogLevel.Name" xml:space="preserve">
+    <value>cbLogLevel</value>
+  </data>
+  <data name="&gt;&gt;cbLogLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbLogLevel.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;cbLogLevel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbLanguage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cbLanguage.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbLanguage.Items" xml:space="preserve">
+    <value>en</value>
+  </data>
+  <data name="cbLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 280</value>
+  </data>
+  <data name="cbLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>637, 21</value>
+  </data>
+  <data name="cbLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;cbLanguage.Name" xml:space="preserve">
+    <value>cbLanguage</value>
+  </data>
+  <data name="&gt;&gt;cbLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbLanguage.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;cbLanguage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbSounds.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cbSounds.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbSounds.Items" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="cbSounds.Items1" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="cbSounds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 253</value>
+  </data>
+  <data name="cbSounds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>637, 21</value>
+  </data>
+  <data name="cbSounds.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;cbSounds.Name" xml:space="preserve">
+    <value>cbSounds</value>
+  </data>
+  <data name="&gt;&gt;cbSounds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbSounds.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;cbSounds.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblLogLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLogLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 310</value>
+  </data>
+  <data name="lblLogLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="lblLogLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="lblLogLevel.Text" xml:space="preserve">
+    <value>Log Level: </value>
+  </data>
+  <data name="&gt;&gt;lblLogLevel.Name" xml:space="preserve">
+    <value>lblLogLevel</value>
+  </data>
+  <data name="&gt;&gt;lblLogLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLogLevel.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;lblLogLevel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblLanguage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 283</value>
+  </data>
+  <data name="lblLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="lblLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="lblLanguage.Text" xml:space="preserve">
+    <value>Language: </value>
+  </data>
+  <data name="&gt;&gt;lblLanguage.Name" xml:space="preserve">
+    <value>lblLanguage</value>
+  </data>
+  <data name="&gt;&gt;lblLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLanguage.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;lblLanguage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtComment.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtComment.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtComment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 227</value>
+  </data>
+  <data name="txtComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>637, 20</value>
+  </data>
+  <data name="txtComment.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;txtComment.Name" xml:space="preserve">
+    <value>txtComment</value>
+  </data>
+  <data name="&gt;&gt;txtComment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtComment.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;txtComment.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtMachineName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtMachineName.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtMachineName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 201</value>
+  </data>
+  <data name="txtMachineName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>637, 20</value>
+  </data>
+  <data name="txtMachineName.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;txtMachineName.Name" xml:space="preserve">
+    <value>txtMachineName</value>
+  </data>
+  <data name="&gt;&gt;txtMachineName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMachineName.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;txtMachineName.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtDelimiter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtDelimiter.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDelimiter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 175</value>
+  </data>
+  <data name="txtDelimiter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>637, 20</value>
+  </data>
+  <data name="txtDelimiter.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="txtDelimiter.Text" xml:space="preserve">
+    <value> -- </value>
+  </data>
+  <data name="&gt;&gt;txtDelimiter.Name" xml:space="preserve">
+    <value>txtDelimiter</value>
+  </data>
+  <data name="&gt;&gt;txtDelimiter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDelimiter.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;txtDelimiter.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtXdeltaBuildCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtXdeltaBuildCommand.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtXdeltaBuildCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 149</value>
+  </data>
+  <data name="txtXdeltaBuildCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>637, 20</value>
+  </data>
+  <data name="txtXdeltaBuildCommand.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="txtXdeltaBuildCommand.Text" xml:space="preserve">
+    <value>-e -9 -s</value>
+  </data>
+  <data name="&gt;&gt;txtXdeltaBuildCommand.Name" xml:space="preserve">
+    <value>txtXdeltaBuildCommand</value>
+  </data>
+  <data name="&gt;&gt;txtXdeltaBuildCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXdeltaBuildCommand.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;txtXdeltaBuildCommand.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtPathXdeltaFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtPathXdeltaFile.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPathXdeltaFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 123</value>
+  </data>
+  <data name="txtPathXdeltaFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>637, 20</value>
+  </data>
+  <data name="txtPathXdeltaFile.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;txtPathXdeltaFile.Name" xml:space="preserve">
+    <value>txtPathXdeltaFile</value>
+  </data>
+  <data name="&gt;&gt;txtPathXdeltaFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPathXdeltaFile.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;txtPathXdeltaFile.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtPathDatPPDXMLFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtPathDatPPDXMLFile.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPathDatPPDXMLFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 97</value>
+  </data>
+  <data name="txtPathDatPPDXMLFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>637, 20</value>
+  </data>
+  <data name="txtPathDatPPDXMLFile.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;txtPathDatPPDXMLFile.Name" xml:space="preserve">
+    <value>txtPathDatPPDXMLFile</value>
+  </data>
+  <data name="&gt;&gt;txtPathDatPPDXMLFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPathDatPPDXMLFile.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;txtPathDatPPDXMLFile.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtPathDatsDir.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtPathDatsDir.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPathDatsDir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 71</value>
+  </data>
+  <data name="txtPathDatsDir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>637, 20</value>
+  </data>
+  <data name="txtPathDatsDir.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;txtPathDatsDir.Name" xml:space="preserve">
+    <value>txtPathDatsDir</value>
+  </data>
+  <data name="&gt;&gt;txtPathDatsDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPathDatsDir.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;txtPathDatsDir.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtPathPatchesDir.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtPathPatchesDir.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPathPatchesDir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 45</value>
+  </data>
+  <data name="txtPathPatchesDir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>637, 20</value>
+  </data>
+  <data name="txtPathPatchesDir.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;txtPathPatchesDir.Name" xml:space="preserve">
+    <value>txtPathPatchesDir</value>
+  </data>
+  <data name="&gt;&gt;txtPathPatchesDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPathPatchesDir.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;txtPathPatchesDir.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtPathROMsDir.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtPathROMsDir.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPathROMsDir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="txtPathROMsDir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>637, 20</value>
+  </data>
+  <data name="txtPathROMsDir.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;txtPathROMsDir.Name" xml:space="preserve">
+    <value>txtPathROMsDir</value>
+  </data>
+  <data name="&gt;&gt;txtPathROMsDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPathROMsDir.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;txtPathROMsDir.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblSounds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSounds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 256</value>
+  </data>
+  <data name="lblSounds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="lblSounds.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblSounds.Text" xml:space="preserve">
+    <value>Sounds: </value>
+  </data>
+  <data name="&gt;&gt;lblSounds.Name" xml:space="preserve">
+    <value>lblSounds</value>
+  </data>
+  <data name="&gt;&gt;lblSounds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSounds.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;lblSounds.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblComment.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblComment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 230</value>
+  </data>
+  <data name="lblComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="lblComment.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblComment.Text" xml:space="preserve">
+    <value>Coment: </value>
+  </data>
+  <data name="&gt;&gt;lblComment.Name" xml:space="preserve">
+    <value>lblComment</value>
+  </data>
+  <data name="&gt;&gt;lblComment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblComment.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;lblComment.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblMachineName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMachineName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 204</value>
+  </data>
+  <data name="lblMachineName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="lblMachineName.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblMachineName.Text" xml:space="preserve">
+    <value>Machine Name: </value>
+  </data>
+  <data name="&gt;&gt;lblMachineName.Name" xml:space="preserve">
+    <value>lblMachineName</value>
+  </data>
+  <data name="&gt;&gt;lblMachineName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMachineName.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;lblMachineName.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblDelimiter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDelimiter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 178</value>
+  </data>
+  <data name="lblDelimiter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="lblDelimiter.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblDelimiter.Text" xml:space="preserve">
+    <value>Delimiter: </value>
+  </data>
+  <data name="&gt;&gt;lblDelimiter.Name" xml:space="preserve">
+    <value>lblDelimiter</value>
+  </data>
+  <data name="&gt;&gt;lblDelimiter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDelimiter.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;lblDelimiter.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblXdeltaBuildCommand.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblXdeltaBuildCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 152</value>
+  </data>
+  <data name="lblXdeltaBuildCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 13</value>
+  </data>
+  <data name="lblXdeltaBuildCommand.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblXdeltaBuildCommand.Text" xml:space="preserve">
+    <value>Xdelta Build Command: </value>
+  </data>
+  <data name="&gt;&gt;lblXdeltaBuildCommand.Name" xml:space="preserve">
+    <value>lblXdeltaBuildCommand</value>
+  </data>
+  <data name="&gt;&gt;lblXdeltaBuildCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblXdeltaBuildCommand.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;lblXdeltaBuildCommand.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblPathXdeltaFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPathXdeltaFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 126</value>
+  </data>
+  <data name="lblPathXdeltaFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="lblPathXdeltaFile.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblPathXdeltaFile.Text" xml:space="preserve">
+    <value>Xdelta File: </value>
+  </data>
+  <data name="&gt;&gt;lblPathXdeltaFile.Name" xml:space="preserve">
+    <value>lblPathXdeltaFile</value>
+  </data>
+  <data name="&gt;&gt;lblPathXdeltaFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPathXdeltaFile.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;lblPathXdeltaFile.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblPathDatPPDXMLFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPathDatPPDXMLFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 100</value>
+  </data>
+  <data name="lblPathDatPPDXMLFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
   <data name="lblPathDatPPDXMLFile.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
+  </data>
+  <data name="lblPathDatPPDXMLFile.Text" xml:space="preserve">
+    <value>Dat/PPD/XML File: </value>
+  </data>
+  <data name="&gt;&gt;lblPathDatPPDXMLFile.Name" xml:space="preserve">
+    <value>lblPathDatPPDXMLFile</value>
+  </data>
+  <data name="&gt;&gt;lblPathDatPPDXMLFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPathDatPPDXMLFile.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;lblPathDatPPDXMLFile.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblPathDatsDir.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPathDatsDir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 74</value>
+  </data>
+  <data name="lblPathDatsDir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblPathDatsDir.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblPathDatsDir.Text" xml:space="preserve">
+    <value>Dats Dir: </value>
+  </data>
+  <data name="&gt;&gt;lblPathDatsDir.Name" xml:space="preserve">
+    <value>lblPathDatsDir</value>
+  </data>
+  <data name="&gt;&gt;lblPathDatsDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPathDatsDir.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;lblPathDatsDir.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblPathPatchesDir.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPathPatchesDir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="lblPathPatchesDir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="lblPathPatchesDir.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblPathPatchesDir.Text" xml:space="preserve">
+    <value>Patches Dir: </value>
+  </data>
+  <data name="&gt;&gt;lblPathPatchesDir.Name" xml:space="preserve">
+    <value>lblPathPatchesDir</value>
+  </data>
+  <data name="&gt;&gt;lblPathPatchesDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPathPatchesDir.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;lblPathPatchesDir.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lblPathROMsDir.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPathROMsDir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="lblPathROMsDir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="lblPathROMsDir.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblPathROMsDir.Text" xml:space="preserve">
+    <value>ROMs Dir: </value>
+  </data>
+  <data name="&gt;&gt;lblPathROMsDir.Name" xml:space="preserve">
+    <value>lblPathROMsDir</value>
+  </data>
+  <data name="&gt;&gt;lblPathROMsDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPathROMsDir.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;lblPathROMsDir.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="gbOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="gbOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>774, 334</value>
+  </data>
+  <data name="gbOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;gbOptions.Name" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;gbOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbOptions.Parent" xml:space="preserve">
+    <value>tabOptions</value>
+  </data>
+  <data name="&gt;&gt;gbOptions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabOptions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 415</value>
+  </data>
+  <data name="tabOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabOptions.Text" xml:space="preserve">
+    <value> Options </value>
+  </data>
+  <data name="&gt;&gt;tabOptions.Name" xml:space="preserve">
+    <value>tabOptions</value>
+  </data>
+  <data name="&gt;&gt;tabOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabOptions.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;tabOptions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPPDBuilder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPPDBuilder.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPPDBuilder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 415</value>
+  </data>
+  <data name="tabPPDBuilder.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPPDBuilder.Text" xml:space="preserve">
+    <value> PPD Builder </value>
+  </data>
+  <data name="&gt;&gt;tabPPDBuilder.Name" xml:space="preserve">
+    <value>tabPPDBuilder</value>
+  </data>
+  <data name="&gt;&gt;tabPPDBuilder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPPDBuilder.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;tabPPDBuilder.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rtbHelp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="rtbHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="rtbHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>774, 403</value>
+  </data>
+  <data name="rtbHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtbHelp.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rtbHelp.Name" xml:space="preserve">
+    <value>rtbHelp</value>
+  </data>
+  <data name="&gt;&gt;rtbHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbHelp.Parent" xml:space="preserve">
+    <value>tabHelp</value>
+  </data>
+  <data name="&gt;&gt;rtbHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabHelp.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 415</value>
+  </data>
+  <data name="tabHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabHelp.Text" xml:space="preserve">
+    <value> Help </value>
+  </data>
+  <data name="&gt;&gt;tabHelp.Name" xml:space="preserve">
+    <value>tabHelp</value>
+  </data>
+  <data name="&gt;&gt;tabHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabHelp.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;tabHelp.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rtbLicense.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="rtbLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="rtbLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>774, 403</value>
+  </data>
+  <data name="rtbLicense.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtbLicense.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rtbLicense.Name" xml:space="preserve">
+    <value>rtbLicense</value>
+  </data>
+  <data name="&gt;&gt;rtbLicense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbLicense.Parent" xml:space="preserve">
+    <value>tabLicense</value>
+  </data>
+  <data name="&gt;&gt;rtbLicense.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabLicense.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 415</value>
+  </data>
+  <data name="tabLicense.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabLicense.Text" xml:space="preserve">
+    <value> License </value>
+  </data>
+  <data name="&gt;&gt;tabLicense.Name" xml:space="preserve">
+    <value>tabLicense</value>
+  </data>
+  <data name="&gt;&gt;tabLicense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabLicense.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;tabLicense.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tcMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tcMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 63</value>
+  </data>
+  <data name="tcMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 441</value>
+  </data>
+  <data name="tcMain.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tcMain.Name" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;tcMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tcMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="bgwBuildROMs.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>289, 17</value>
+  </metadata>
+  <metadata name="bgwBuildPatches.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>424, 17</value>
+  </metadata>
+  <metadata name="bgwBuildDatafile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>568, 17</value>
+  </metadata>
+  <metadata name="bgwStartupTasks.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>712, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>51</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>794, 526</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1813,541 +2038,289 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
   </data>
-  <data name="&gt;&gt;tabOptions.Parent" xml:space="preserve">
-    <value>tcMain</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>BuildEmAll</value>
   </data>
-  <data name="gbOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>774, 334</value>
-  </data>
-  <data name="txtXdeltaBuildCommand.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;lblOptionsInfo1.Parent" xml:space="preserve">
-    <value>gbOptionsInfo</value>
-  </data>
-  <data name="tabOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>786, 415</value>
-  </data>
-  <data name="cbSounds.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 253</value>
-  </data>
-  <data name="ssMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>794, 22</value>
-  </data>
-  <data name="tsbViewLicense.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 36</value>
-  </data>
-  <data name="tabPPDBuilder.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lblLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 13</value>
-  </data>
-  <data name="rtbHelp.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblComment.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 13</value>
-  </data>
-  <data name="tsbViewOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 36</value>
-  </data>
-  <data name="&gt;&gt;btnRemoveAllPrepatches.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tcMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 63</value>
-  </data>
-  <data name="&gt;&gt;tsmiLog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbPrepatches.Name" xml:space="preserve">
-    <value>lbPrepatches</value>
-  </data>
-  <data name="lblPathXdeltaFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 13</value>
-  </data>
-  <data name="&gt;&gt;rtbHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbToDat.Parent" xml:space="preserve">
-    <value>splitContainer5.Panel2</value>
-  </data>
-  <data name="lblCountPrepatches.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;tsbViewPPDBuilder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblMachineName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 204</value>
-  </data>
-  <data name="btnRemovePrepatch.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
-  </data>
-  <data name="lblPathROMsDir.Text" xml:space="preserve">
-    <value>ROMs Dir: </value>
-  </data>
-  <data name="&gt;&gt;tsbBuildROMs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="msMain.Text" xml:space="preserve">
-    <value>msMain</value>
-  </data>
-  <data name="&gt;&gt;btnAddPrepatch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbToDat.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 35</value>
-  </data>
-  <data name="&gt;&gt;lblOptionsInfo2.Name" xml:space="preserve">
-    <value>lblOptionsInfo2</value>
-  </data>
-  <data name="&gt;&gt;tcMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
-    <value>toolStripSeparator2</value>
-  </data>
-  <data name="&gt;&gt;tsMain.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="txtPathDatsDir.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="lblDelimiter.Text" xml:space="preserve">
-    <value>Delimiter: </value>
-  </data>
-  <data name="tabHelp.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="&gt;&gt;tsMain.Name" xml:space="preserve">
-    <value>tsMain</value>
-  </data>
-  <data name="btnRemovePrepatch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 26</value>
-  </data>
-  <data name="&gt;&gt;lblOptionsInfo3.Name" xml:space="preserve">
-    <value>lblOptionsInfo3</value>
-  </data>
-  <data name="&gt;&gt;tsbBuildPatchesDatafile.Name" xml:space="preserve">
-    <value>tsbBuildPatchesDatafile</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
-    <value>toolStripSeparator3</value>
-  </data>
-  <data name="lblMachineName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 13</value>
-  </data>
-  <data name="&gt;&gt;txtLoadedDatafile.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;gbOptionsInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiPPDBuilder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tsbSaveOptions.Text" xml:space="preserve">
-    <value>Save Options</value>
+  <data name="&gt;&gt;tsmiCommands.Name" xml:space="preserve">
+    <value>tsmiCommands</value>
   </data>
   <data name="&gt;&gt;tsmiCommands.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnRemovePrepatch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>107, 3</value>
+  <data name="&gt;&gt;tsmiBuildROMs.Name" xml:space="preserve">
+    <value>tsmiBuildROMs</value>
   </data>
-  <data name="tsmiLoadOptions.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;lbToDat.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tabPPDBuilder.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="cbLogLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;lbFromDat.Name" xml:space="preserve">
-    <value>lbFromDat</value>
-  </data>
-  <data name="&gt;&gt;lblComment.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbSounds.Name" xml:space="preserve">
-    <value>cbSounds</value>
-  </data>
-  <data name="tsmiSaveOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
-  </data>
-  <data name="&gt;&gt;tabOptions.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="lblOptionsInfo3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 47</value>
-  </data>
-  <data name="&gt;&gt;tssbCancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="rtbLog.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;lblCountPrepatches.Name" xml:space="preserve">
-    <value>lblCountPrepatches</value>
-  </data>
-  <data name="tsmiBuildROMs.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;tsbBuildROMs.Name" xml:space="preserve">
-    <value>tsbBuildROMs</value>
-  </data>
-  <data name="&gt;&gt;tsmiLog.Name" xml:space="preserve">
-    <value>tsmiLog</value>
-  </data>
-  <data name="&gt;&gt;txtPathDatsDir.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
-    <value>toolStripSeparator6</value>
-  </data>
-  <data name="tabLicense.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="tsbViewPPDBuilder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 36</value>
-  </data>
-  <data name="lblPathPatchesDir.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 13</value>
-  </data>
-  <data name="&gt;&gt;lblPathPatchesDir.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;lblCountPrepatches.Parent" xml:space="preserve">
-    <value>splitContainer4.Panel2</value>
-  </data>
-  <data name="&gt;&gt;tsbBuildPatchesDatafile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rtbLicense.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tabHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="tsbBuildROMs.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="&gt;&gt;rtbLog.Parent" xml:space="preserve">
-    <value>tabLog</value>
-  </data>
-  <data name="&gt;&gt;btnRemovePrepatch.Parent" xml:space="preserve">
-    <value>splitContainer5.Panel2</value>
-  </data>
-  <data name="&gt;&gt;tsmiSaveOptions.Name" xml:space="preserve">
-    <value>tsmiSaveOptions</value>
-  </data>
-  <data name="&gt;&gt;tsbBuildPatches.Name" xml:space="preserve">
-    <value>tsbBuildPatches</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
-    <value>toolStripSeparator7</value>
-  </data>
-  <data name="&gt;&gt;cbLanguage.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="txtPathPatchesDir.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;splitContainer4.Panel2.Parent" xml:space="preserve">
-    <value>splitContainer4</value>
-  </data>
-  <data name="&gt;&gt;btnLoadPPD.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tabPPDBuilder.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="btnCheckPrepatches.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
-  </data>
-  <data name="lblOptionsInfo3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tsmiSaveLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
-  </data>
-  <data name="&gt;&gt;bgwBuildPatches.Type" xml:space="preserve">
-    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnCheckPrepatches.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lblMachineName.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="tsMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 24</value>
-  </data>
-  <data name="&gt;&gt;txtDelimiter.Name" xml:space="preserve">
-    <value>txtDelimiter</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblLogLevel.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="lblCountPrepatches.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="tsmiLicense.Text" xml:space="preserve">
-    <value>License</value>
-  </data>
-  <data name="tsbViewLog.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tsbLoadOptions.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="lbPrepatches.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lblXdeltaBuildCommand.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmBuildEmAll</value>
-  </data>
-  <data name="&gt;&gt;splitContainer4.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
-    <value>toolStripSeparator1</value>
-  </data>
-  <data name="&gt;&gt;btnCheckPrepatches.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;msMain.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;gbOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tsbViewOptions.Text" xml:space="preserve">
-    <value>Options</value>
-  </data>
-  <data name="&gt;&gt;btnAddPrepatch.Parent" xml:space="preserve">
-    <value>splitContainer5.Panel2</value>
-  </data>
-  <data name="&gt;&gt;tcMain.Name" xml:space="preserve">
-    <value>tcMain</value>
-  </data>
-  <data name="tsslStarusMessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 17</value>
-  </data>
-  <data name="tssbCancel.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="&gt;&gt;tsmiLicense.Type" xml:space="preserve">
+  <data name="&gt;&gt;tsmiBuildROMs.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtComment.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="&gt;&gt;splitContainer4.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPathDatPPDXMLFile.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="txtPathDatPPDXMLFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>637, 20</value>
-  </data>
-  <data name="&gt;&gt;lblOptionsInfo1.Name" xml:space="preserve">
-    <value>lblOptionsInfo1</value>
-  </data>
-  <data name="txtDelimiter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 175</value>
-  </data>
-  <data name="&gt;&gt;btnLoadPPD.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tabLog.Name" xml:space="preserve">
-    <value>tabLog</value>
-  </data>
-  <data name="&gt;&gt;txtPathROMsDir.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtPathDatPPDXMLFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="rtbLicense.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="tsbBuildPatchesDatafile.Text" xml:space="preserve">
-    <value>Build Patches Datafile</value>
-  </data>
-  <data name="&gt;&gt;tabLicense.Parent" xml:space="preserve">
-    <value>tcMain</value>
-  </data>
-  <data name="lblPathDatPPDXMLFile.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;rtbLicense.Parent" xml:space="preserve">
-    <value>tabLicense</value>
-  </data>
-  <data name="txtDelimiter.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="tsbViewLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 36</value>
-  </data>
-  <data name="tsmiLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
-  </data>
-  <data name="msMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>794, 24</value>
-  </data>
-  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 39</value>
-  </data>
-  <data name="&gt;&gt;btnRemoveAllPrepatches.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tspbBuildProgress.Name" xml:space="preserve">
-    <value>tspbBuildProgress</value>
-  </data>
-  <data name="txtDelimiter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>637, 20</value>
-  </data>
-  <data name="tsbViewToolbar.Text" xml:space="preserve">
-    <value>Toolbar</value>
-  </data>
-  <data name="lblCountPrepatches.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 23</value>
-  </data>
-  <data name="&gt;&gt;rtbHelp.Parent" xml:space="preserve">
-    <value>tabHelp</value>
-  </data>
-  <data name="lbToDat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;tspbBuildProgress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblOptionsInfo2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tsbViewHelp.Name" xml:space="preserve">
-    <value>tsbViewHelp</value>
-  </data>
-  <data name="&gt;&gt;btnLoadDat.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbSounds.Parent" xml:space="preserve">
-    <value>gbOptions</value>
-  </data>
-  <data name="tabLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
+  <data name="&gt;&gt;tsmiBuildPatches.Name" xml:space="preserve">
+    <value>tsmiBuildPatches</value>
   </data>
   <data name="&gt;&gt;tsmiBuildPatches.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblOptionsInfo1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>297, 13</value>
+  <data name="&gt;&gt;tsmiBuildPatchesDatafile.Name" xml:space="preserve">
+    <value>tsmiBuildPatchesDatafile</value>
   </data>
-  <data name="cbLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>637, 21</value>
+  <data name="&gt;&gt;tsmiBuildPatchesDatafile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txtPathDatsDir.Size" type="System.Drawing.Size, System.Drawing">
-    <value>637, 20</value>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
   </data>
-  <data name="btnSavePPD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 26</value>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnCheckPrepatches.Location" type="System.Drawing.Point, System.Drawing">
-    <value>649, 3</value>
+  <data name="&gt;&gt;tsmiLoadOptions.Name" xml:space="preserve">
+    <value>tsmiLoadOptions</value>
   </data>
-  <data name="&gt;&gt;lblOptionsInfo3.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;tsmiLoadOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tsmiToolbar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
+  <data name="&gt;&gt;tsmiSaveOptions.Name" xml:space="preserve">
+    <value>tsmiSaveOptions</value>
   </data>
-  <data name="&gt;&gt;msMain.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;tsmiSaveOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiSaveLog.Name" xml:space="preserve">
+    <value>tsmiSaveLog</value>
+  </data>
+  <data name="&gt;&gt;tsmiSaveLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiExit.Name" xml:space="preserve">
+    <value>tsmiExit</value>
+  </data>
+  <data name="&gt;&gt;tsmiExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiView.Name" xml:space="preserve">
+    <value>tsmiView</value>
+  </data>
+  <data name="&gt;&gt;tsmiView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiLog.Name" xml:space="preserve">
+    <value>tsmiLog</value>
+  </data>
+  <data name="&gt;&gt;tsmiLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
+    <value>toolStripSeparator7</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiOptions.Name" xml:space="preserve">
+    <value>tsmiOptions</value>
+  </data>
+  <data name="&gt;&gt;tsmiOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Name" xml:space="preserve">
+    <value>toolStripSeparator8</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiPPDBuilder.Name" xml:space="preserve">
+    <value>tsmiPPDBuilder</value>
+  </data>
+  <data name="&gt;&gt;tsmiPPDBuilder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Name" xml:space="preserve">
+    <value>toolStripSeparator9</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiHelp.Name" xml:space="preserve">
+    <value>tsmiHelp</value>
+  </data>
+  <data name="&gt;&gt;tsmiHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Name" xml:space="preserve">
+    <value>toolStripSeparator10</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiLicense.Name" xml:space="preserve">
+    <value>tsmiLicense</value>
+  </data>
+  <data name="&gt;&gt;tsmiLicense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Name" xml:space="preserve">
+    <value>toolStripSeparator11</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiToolbar.Name" xml:space="preserve">
+    <value>tsmiToolbar</value>
+  </data>
+  <data name="&gt;&gt;tsmiToolbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbBuildROMs.Name" xml:space="preserve">
+    <value>tsbBuildROMs</value>
+  </data>
+  <data name="&gt;&gt;tsbBuildROMs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbBuildPatches.Name" xml:space="preserve">
+    <value>tsbBuildPatches</value>
+  </data>
+  <data name="&gt;&gt;tsbBuildPatches.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbBuildPatchesDatafile.Name" xml:space="preserve">
+    <value>tsbBuildPatchesDatafile</value>
+  </data>
+  <data name="&gt;&gt;tsbBuildPatchesDatafile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
+    <value>toolStripSeparator4</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbLoadOptions.Name" xml:space="preserve">
+    <value>tsbLoadOptions</value>
+  </data>
+  <data name="&gt;&gt;tsbLoadOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbSaveOptions.Name" xml:space="preserve">
+    <value>tsbSaveOptions</value>
   </data>
   <data name="&gt;&gt;tsbSaveOptions.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tabLog.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
   </data>
-  <data name="txtPathXdeltaFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnRemovePrepatch.Name" xml:space="preserve">
-    <value>btnRemovePrepatch</value>
+  <data name="&gt;&gt;tsbSaveLog.Name" xml:space="preserve">
+    <value>tsbSaveLog</value>
   </data>
-  <data name="splitContainer5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;tsbSaveLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblOptionsInfo2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
+    <value>toolStripSeparator6</value>
   </data>
-  <data name="&gt;&gt;gbOptionsInfo.Name" xml:space="preserve">
-    <value>gbOptionsInfo</value>
+  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtMachineName.Name" xml:space="preserve">
-    <value>txtMachineName</value>
+  <data name="&gt;&gt;tsbViewLog.Name" xml:space="preserve">
+    <value>tsbViewLog</value>
   </data>
-  <data name="&gt;&gt;btnAddPrepatch.Name" xml:space="preserve">
-    <value>btnAddPrepatch</value>
+  <data name="&gt;&gt;tsbViewLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txtPathPatchesDir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 45</value>
+  <data name="&gt;&gt;tsbViewOptions.Name" xml:space="preserve">
+    <value>tsbViewOptions</value>
   </data>
-  <data name="&gt;&gt;btnSavePPD.Name" xml:space="preserve">
-    <value>btnSavePPD</value>
+  <data name="&gt;&gt;tsbViewOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txtPathDatPPDXMLFile.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;tsbViewPPDBuilder.Name" xml:space="preserve">
+    <value>tsbViewPPDBuilder</value>
   </data>
-  <data name="&gt;&gt;txtXdeltaBuildCommand.Parent" xml:space="preserve">
-    <value>gbOptions</value>
+  <data name="&gt;&gt;tsbViewPPDBuilder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="ssMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>200, 17</value>
-  </metadata>
-  <metadata name="msMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="bgwBuildPatches.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>424, 17</value>
-  </metadata>
-  <metadata name="tsMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>112, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>51</value>
-  </metadata>
-  <metadata name="bgwStartupTasks.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>712, 17</value>
-  </metadata>
-  <metadata name="bgwBuildROMs.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>289, 17</value>
-  </metadata>
-  <metadata name="bgwBuildDatafile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>568, 17</value>
-  </metadata>
+  <data name="&gt;&gt;tsbViewHelp.Name" xml:space="preserve">
+    <value>tsbViewHelp</value>
+  </data>
+  <data name="&gt;&gt;tsbViewHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbViewLicense.Name" xml:space="preserve">
+    <value>tsbViewLicense</value>
+  </data>
+  <data name="&gt;&gt;tsbViewLicense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbViewToolbar.Name" xml:space="preserve">
+    <value>tsbViewToolbar</value>
+  </data>
+  <data name="&gt;&gt;tsbViewToolbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsslSnap.Name" xml:space="preserve">
+    <value>tsslSnap</value>
+  </data>
+  <data name="&gt;&gt;tsslSnap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsslStarusMessage.Name" xml:space="preserve">
+    <value>tsslStarusMessage</value>
+  </data>
+  <data name="&gt;&gt;tsslStarusMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tspbBuildProgress.Name" xml:space="preserve">
+    <value>tspbBuildProgress</value>
+  </data>
+  <data name="&gt;&gt;tspbBuildProgress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tssbCancel.Name" xml:space="preserve">
+    <value>tssbCancel</value>
+  </data>
+  <data name="&gt;&gt;tssbCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bgwBuildROMs.Name" xml:space="preserve">
+    <value>bgwBuildROMs</value>
+  </data>
+  <data name="&gt;&gt;bgwBuildROMs.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bgwBuildPatches.Name" xml:space="preserve">
+    <value>bgwBuildPatches</value>
+  </data>
+  <data name="&gt;&gt;bgwBuildPatches.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bgwBuildDatafile.Name" xml:space="preserve">
+    <value>bgwBuildDatafile</value>
+  </data>
+  <data name="&gt;&gt;bgwBuildDatafile.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bgwStartupTasks.Name" xml:space="preserve">
+    <value>bgwStartupTasks</value>
+  </data>
+  <data name="&gt;&gt;bgwStartupTasks.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmBuildEmAll</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

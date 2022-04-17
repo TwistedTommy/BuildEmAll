@@ -30,6 +30,7 @@ BuildEmAll.BuildEmAll bea = new BuildEmAll.BuildEmAll();
 		<repository type="git" url="https://github.com/TwistedTommy/BuildEmAll.git" />
 		<dependencies>
 			<group targetFramework=".NETFramework4.7.2">
+				<dependency id="ILMerge" version="3.0.41" />
 				<dependency id="Serilog" version="2.10.0" />
 				<dependency id="Serilog.Sinks.Console" version="4.0.1" />
 				<dependency id="Serilog.Sinks.LogEmAll" version="0.0.3" />
